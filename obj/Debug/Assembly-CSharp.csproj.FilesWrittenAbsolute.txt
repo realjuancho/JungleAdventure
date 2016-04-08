@@ -1,0 +1,41 @@
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/obj/Debug/Assembly-CSharp.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/UnityEngine.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/UnityEditor.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Mono.Cecil.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Unity.DataContract.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/JuanCerda/Documents/Mis Proyectos/Casa de Abue/JC.Arne/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/obj/Debug/Assembly-CSharp.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEngine.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEditor.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Mono.Cecil.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Unity.DataContract.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Pathfinding.Ionic.Zip.Reduced.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/Pathfinding.JsonFx.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/pseudoSinCos.dll

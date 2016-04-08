@@ -1,0 +1,423 @@
+fileFormatVersion: 2
+guid: 0dcf3b903e2774360b3e8c57d875b346
+timeCreated: 1457412515
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: running-man-test_1
+    21300002: running-man-test_3
+    21300004: running-man-test_4
+    21300006: running-man-test_5
+    21300008: running-man-test_6
+    21300010: running-man-test_7
+    21300012: running-man-test_13
+    21300014: running-man-test_15
+    21300016: running-man-test_16
+    21300018: running-man-test_18
+    21300020: running-man-test_19
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 200
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: running-man-test_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1090
+        width: 396
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 6, z: 0, w: 0}
+      outline:
+      - - {x: 188, y: 112}
+        - {x: 187, y: 109}
+        - {x: 187, y: 107}
+        - {x: 185, y: 110}
+        - {x: 189, y: 133}
+        - {x: 188, y: 158}
+        - {x: 180, y: 165}
+        - {x: 114, y: 165}
+        - {x: 107, y: 164}
+        - {x: -16, y: 144}
+        - {x: -198, y: -91}
+        - {x: -198, y: -165}
+        - {x: -160, y: -165}
+        - {x: 103, y: -88}
+        - {x: 188, y: 27}
+        - {x: 198, y: 59}
+        - {x: 198, y: 111}
+      - - {x: -164, y: -52}
+        - {x: -162, y: -54}
+        - {x: -159, y: -53}
+        - {x: -159, y: -50}
+        - {x: -161, y: -48}
+        - {x: -164, y: -49}
+      - - {x: -165, y: -21}
+        - {x: -167, y: -30}
+        - {x: -167, y: -42}
+        - {x: -162, y: -47}
+        - {x: -159, y: -46}
+        - {x: -159, y: -21}
+        - {x: -161, y: -20}
+      - - {x: -172, y: -42}
+        - {x: -170, y: -44}
+        - {x: -167, y: -43}
+        - {x: -167, y: -34}
+        - {x: -169, y: -32}
+        - {x: -172, y: -33}
+      - - {x: -184, y: 5}
+        - {x: -181, y: 6}
+        - {x: -181, y: 9}
+        - {x: -184, y: 10}
+        - {x: -186, y: 8}
+      - - {x: 186, y: 33}
+        - {x: 185, y: 31}
+        - {x: 185, y: 26}
+        - {x: 192, y: 26}
+        - {x: 192, y: 32}
+        - {x: 190, y: 33}
+      - - {x: -162, y: 36}
+        - {x: -168, y: 31}
+        - {x: -168, y: 29}
+        - {x: -167, y: 27}
+        - {x: -158, y: 27}
+        - {x: -157, y: 30}
+        - {x: -157, y: 36}
+      - - {x: 189, y: 36}
+        - {x: 192, y: 33}
+        - {x: 196, y: 33}
+        - {x: 198, y: 34}
+        - {x: 198, y: 51}
+        - {x: 195, y: 50}
+      - - {x: -111, y: 94}
+        - {x: -130, y: 85}
+        - {x: -148, y: 73}
+        - {x: -158, y: 63}
+        - {x: -158, y: 54}
+        - {x: -128, y: 54}
+        - {x: -101, y: 77}
+        - {x: -101, y: 92}
+        - {x: -102, y: 94}
+      - - {x: -166, y: 165}
+        - {x: -198, y: 113}
+        - {x: -198, y: 76}
+        - {x: -180, y: 76}
+        - {x: -128, y: 118}
+        - {x: -104, y: 152}
+        - {x: -104, y: 165}
+    - name: running-man-test_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1056
+        width: 419
+        height: 368
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 193.5, y: 28}
+        - {x: 209.5, y: 55}
+        - {x: 209.5, y: 118}
+        - {x: 199.5, y: 123}
+        - {x: 189.5, y: 123}
+        - {x: 188.5, y: 120}
+        - {x: 209.5, y: 175}
+        - {x: 209.5, y: 184}
+        - {x: -10.5, y: 184}
+        - {x: -47.5, y: 108}
+        - {x: -81.5, y: 39}
+        - {x: -209.5, y: 17}
+        - {x: -209.5, y: -62}
+        - {x: -63.5, y: -101}
+        - {x: -6.5, y: -39}
+        - {x: 85.5, y: -184}
+        - {x: 129.5, y: -184}
+        - {x: 155.5, y: -178}
+        - {x: 184.5, y: -167}
+        - {x: 128.5, y: -32}
+        - {x: 75.5, y: 13}
+      - - {x: -173.5, y: 67}
+        - {x: -186.5, y: 44}
+        - {x: -187.5, y: 42}
+        - {x: -187.5, y: 30}
+        - {x: -170.5, y: 30}
+        - {x: -167.5, y: 33}
+        - {x: -167.5, y: 66}
+        - {x: -169.5, y: 67}
+    - name: running-man-test_4
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1054
+        width: 320
+        height: 371
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: -148.5}
+        - {x: 49, y: -68.5}
+        - {x: 49, y: -38.5}
+        - {x: 33, y: 8.5}
+        - {x: 18, y: 22.5}
+        - {x: 27, y: 26.5}
+        - {x: 29, y: 28.5}
+        - {x: 32, y: 11.5}
+        - {x: 40, y: 2.5}
+        - {x: 75, y: 2.5}
+        - {x: 78, y: 3.5}
+        - {x: 157, y: 99.5}
+        - {x: 157, y: 180.5}
+        - {x: 150, y: 182.5}
+        - {x: 36, y: 182.5}
+        - {x: -53, y: 154.5}
+        - {x: -160, y: 54.5}
+        - {x: -160, y: -154.5}
+        - {x: -145, y: -185.5}
+        - {x: 61, y: -185.5}
+        - {x: 69, y: -159.5}
+        - {x: 45, y: -137.5}
+        - {x: 34, y: -145.5}
+    - name: running-man-test_13
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 594
+        width: 404
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 173, y: 91}
+        - {x: 202, y: 170}
+        - {x: 202, y: 191}
+        - {x: 187, y: 201}
+        - {x: 168, y: 201}
+        - {x: 25, y: 144}
+        - {x: -57, y: 50}
+        - {x: -94, y: -25}
+        - {x: -199, y: -129}
+        - {x: -202, y: -139}
+        - {x: -202, y: -201}
+        - {x: -103, y: -201}
+        - {x: -98, y: -143}
+        - {x: 72, y: -80}
+        - {x: 77, y: 28}
+      - - {x: -202, y: -196}
+        - {x: -199, y: -195}
+        - {x: -199, y: -186}
+        - {x: -201, y: -184}
+        - {x: -202, y: -184}
+      - - {x: 118, y: -60}
+        - {x: 121, y: -59}
+        - {x: 121, y: -56}
+        - {x: 118, y: -55}
+        - {x: 116, y: -57}
+      - - {x: -108, y: 190}
+        - {x: -105, y: 191}
+        - {x: -105, y: 201}
+        - {x: -179, y: 201}
+        - {x: -179, y: 199}
+        - {x: -168, y: 187}
+        - {x: -158, y: 181}
+        - {x: -130, y: 181}
+        - {x: -111, y: 188}
+        - {x: -110, y: 191}
+        - {x: -110, y: 192}
+    - name: running-man-test_15
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 594
+        width: 400
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: -109}
+        - {x: 134, y: -68}
+        - {x: 163, y: 39}
+        - {x: 200, y: 106}
+        - {x: 200, y: 171}
+        - {x: 86, y: 171}
+        - {x: 34, y: 160}
+        - {x: 5, y: 127}
+        - {x: -65, y: -32}
+        - {x: -191, y: -60}
+        - {x: -200, y: -87}
+        - {x: -200, y: -156}
+        - {x: -189, y: -171}
+        - {x: -134, y: -171}
+        - {x: -29, y: -97}
+        - {x: -15, y: -78}
+        - {x: -10, y: -104}
+      - - {x: 139, y: -82}
+        - {x: 103, y: -113}
+        - {x: 94, y: -128}
+        - {x: 94, y: -143}
+        - {x: 120, y: -143}
+        - {x: 155, y: -131}
+        - {x: 155, y: -81}
+        - {x: 144, y: -81}
+      - - {x: 142, y: -76}
+        - {x: 143, y: -77}
+        - {x: 150, y: -77}
+        - {x: 154, y: -76}
+        - {x: 157, y: -60}
+        - {x: 156, y: -57}
+        - {x: 151, y: -57}
+        - {x: 142, y: -60}
+    - name: running-man-test_16
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 567
+        width: 466
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 230, y: 22}
+        - {x: 233, y: 32}
+        - {x: 233, y: 73}
+        - {x: 217, y: 161}
+        - {x: 131, y: 173}
+        - {x: 41, y: 159}
+        - {x: 27, y: 159}
+        - {x: 33, y: 159}
+        - {x: 46, y: 161}
+        - {x: 74, y: 191}
+        - {x: 74, y: 199}
+        - {x: -13, y: 199}
+        - {x: -32, y: 195}
+        - {x: -60, y: 62}
+        - {x: -47, y: 5}
+        - {x: -177, y: -16}
+        - {x: -233, y: -30}
+        - {x: -233, y: -111}
+        - {x: -24, y: -102}
+        - {x: 78, y: -199}
+        - {x: 162, y: -199}
+        - {x: 173, y: -194}
+        - {x: 192, y: -169}
+        - {x: 188, y: -146}
+        - {x: 81, y: 3}
+    - name: running-man-test_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 84
+        width: 401
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 131.5, y: 93}
+        - {x: 200.5, y: 180}
+        - {x: 200.5, y: 200}
+        - {x: 198.5, y: 203}
+        - {x: 139.5, y: 203}
+        - {x: 125.5, y: 199}
+        - {x: 32.5, y: 151}
+        - {x: -18.5, y: 133}
+        - {x: -71.5, y: 89}
+        - {x: -105.5, y: 26}
+        - {x: -153.5, y: 31}
+        - {x: -200.5, y: -12}
+        - {x: -200.5, y: -103}
+        - {x: -160.5, y: -103}
+        - {x: -115.5, y: -136}
+        - {x: -142.5, y: -201}
+        - {x: -131.5, y: -203}
+        - {x: -27.5, y: -203}
+        - {x: 23.5, y: -104}
+        - {x: 50.5, y: -32}
+        - {x: 80.5, y: 42}
+    - name: running-man-test_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 84
+        width: 360
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 180, y: 160}
+        - {x: 177, y: 165}
+        - {x: 108, y: 159}
+        - {x: 98, y: 153}
+        - {x: 25, y: 187}
+        - {x: -25, y: 187}
+        - {x: -59, y: 122}
+        - {x: -61, y: 8}
+        - {x: -138, y: -80}
+        - {x: -180, y: -132}
+        - {x: -180, y: -167}
+        - {x: -175, y: -180}
+        - {x: -156, y: -187}
+        - {x: -98, y: -187}
+        - {x: -91, y: -138}
+        - {x: 91, y: -76}
+        - {x: 180, y: 98}
+      - - {x: 74, y: -59}
+        - {x: 75, y: -61}
+        - {x: 102, y: -61}
+        - {x: 126, y: 2}
+        - {x: 126, y: 7}
+        - {x: 89, y: 7}
+        - {x: 74, y: 1}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

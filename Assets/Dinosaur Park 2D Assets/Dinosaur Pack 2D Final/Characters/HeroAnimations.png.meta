@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: a1817893967554c70b070aa0f40ee945
+timeCreated: 1458853678
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HeroAnimations_0
+    21300002: HeroAnimations_1
+    21300004: HeroAnimations_2
+    21300006: HeroAnimations_3
+    21300008: HeroAnimations_4
+    21300010: HeroAnimations_5
+    21300012: HeroAnimations_6
+    21300014: HeroAnimations_7
+    21300016: HeroAnimations_8
+    21300018: HeroAnimations_9
+    21300020: HeroAnimations_10
+    21300022: HeroAnimations_11
+    21300024: HeroAnimations_12
+    21300026: HeroAnimations_13
+    21300028: HeroAnimations_14
+    21300030: HeroAnimations_15
+    21300032: HeroAnimations_16
+    21300034: HeroAnimations_17
+    21300036: HeroAnimations_18
+    21300038: HeroAnimations_19
+    21300040: HeroAnimations_20
+    21300042: HeroAnimations_21
+    21300044: HeroAnimations_22
+    21300046: HeroAnimations_23
+    21300048: HeroAnimations_24
+    21300050: HeroAnimations_25
+    21300052: HeroAnimations_26
+    21300054: HeroAnimations_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HeroAnimations_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 737
+        width: 153
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.806667, y: -66.874664}
+        - {x: 52.806667, y: -24.874664}
+        - {x: 52.806667, y: 48.125336}
+        - {x: 25.806667, y: 83.125336}
+        - {x: -14.193333, y: 83.125336}
+        - {x: -31.193333, y: 76.125336}
+        - {x: -52.193333, y: 54.125336}
+        - {x: -52.193333, y: -78.874664}
+        - {x: -45.193333, y: -82.874664}
+        - {x: 50.806667, y: -82.874664}
+        - {x: 51.806667, y: -80.874664}
+        - {x: 51.806667, y: -73.874664}
+    - name: HeroAnimations_1
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 737
+        width: 152
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.662674, y: 83.125336}
+        - {x: -25.662674, y: 76.125336}
+        - {x: -51.662674, y: 52.125336}
+        - {x: -51.662674, y: -45.874664}
+        - {x: -46.662674, y: -82.874664}
+        - {x: 53.337326, y: -82.874664}
+        - {x: 53.337326, y: 56.125336}
+        - {x: 25.337326, y: 83.125336}
+    - name: HeroAnimations_2
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 737
+        width: 152
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29.814667, y: 82.125336}
+        - {x: -51.814667, y: 43.125336}
+        - {x: -51.814667, y: -81.874664}
+        - {x: 53.185333, y: -81.874664}
+        - {x: 53.185333, y: 46.125336}
+        - {x: 27.185333, y: 82.125336}
+    - name: HeroAnimations_3
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 737
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.850647, y: 82.125336}
+        - {x: -27.149353, y: 82.125336}
+        - {x: -52.149353, y: 56.125336}
+        - {x: -52.149353, y: -52.874664}
+        - {x: -48.149353, y: -81.874664}
+        - {x: 53.850647, y: -81.874664}
+        - {x: 53.850647, y: 46.125336}
+        - {x: 35.850647, y: 79.125336}
+    - name: HeroAnimations_4
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 737
+        width: 154
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.666687, y: 82.125336}
+        - {x: -52.666687, y: 49.125336}
+        - {x: -52.666687, y: -81.874664}
+        - {x: 53.333313, y: -81.874664}
+        - {x: 53.333313, y: 51.125336}
+        - {x: 18.333313, y: 82.125336}
+    - name: HeroAnimations_5
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 737
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.318726, y: 82.125336}
+        - {x: -52.318726, y: 42.125336}
+        - {x: -52.318726, y: 25.125336}
+        - {x: -49.318726, y: 22.125336}
+        - {x: -38.318726, y: 9.125336}
+        - {x: -35.318726, y: -13.874664}
+        - {x: -28.318726, y: -45.874664}
+        - {x: -44.318726, y: -69.874664}
+        - {x: -48.318726, y: -81.874664}
+        - {x: 52.681274, y: -81.874664}
+        - {x: 52.681274, y: 69.125336}
+        - {x: 49.681274, y: 82.125336}
+    - name: HeroAnimations_6
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 737
+        width: 153
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.84668, y: -33.874664}
+        - {x: 52.84668, y: 48.125336}
+        - {x: 32.84668, y: 82.125336}
+        - {x: -29.15332, y: 82.125336}
+        - {x: -52.15332, y: 45.125336}
+        - {x: -52.15332, y: -81.874664}
+        - {x: 52.84668, y: -81.874664}
+        - {x: 52.84668, y: -78.874664}
+        - {x: 46.84668, y: -62.874664}
+    - name: HeroAnimations_7
+      rect:
+        serializedVersion: 2
+        x: 2156
+        y: 737
+        width: 153
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.170654, y: 82.125336}
+        - {x: -52.170654, y: 44.125336}
+        - {x: -52.170654, y: 28.125336}
+        - {x: -48.170654, y: 22.125336}
+        - {x: -45.170654, y: -72.874664}
+        - {x: -43.170654, y: -81.874664}
+        - {x: 53.829346, y: -81.874664}
+        - {x: 53.829346, y: 63.125336}
+        - {x: 22.829346, y: 82.125336}
+    - name: HeroAnimations_8
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 737
+        width: 153
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.81201, y: 64.125336}
+        - {x: 46.81201, y: 81.125336}
+        - {x: 35.81201, y: 83.125336}
+        - {x: -36.18799, y: 83.125336}
+        - {x: -52.18799, y: 63.125336}
+        - {x: -52.18799, y: -82.874664}
+        - {x: 52.81201, y: -82.874664}
+    - name: HeroAnimations_9
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 737
+        width: 154
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27.522705, y: 83.125336}
+        - {x: -52.522705, y: 49.125336}
+        - {x: -52.522705, y: -39.874664}
+        - {x: -46.522705, y: -82.874664}
+        - {x: 53.477295, y: -82.874664}
+        - {x: 53.477295, y: 59.125336}
+        - {x: 29.477295, y: 83.125336}
+    - name: HeroAnimations_10
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 485
+        width: 164
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.299999, y: 82.09332}
+        - {x: -55.3, y: 37.093323}
+        - {x: -50.3, y: 28.093323}
+        - {x: -56.3, y: -22.906677}
+        - {x: -56.3, y: -77.90668}
+        - {x: -46.3, y: -81.90668}
+        - {x: 0.70000076, y: -81.90668}
+        - {x: 56.7, y: -19.906677}
+        - {x: 56.7, y: 62.093323}
+        - {x: 35.7, y: 82.09332}
+    - name: HeroAnimations_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 481
+        width: 174
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.49066, y: 83.86267}
+        - {x: -47.50934, y: 83.86267}
+        - {x: -59.50934, y: 53.86267}
+        - {x: -59.50934, y: -83.13733}
+        - {x: 21.490662, y: -83.13733}
+        - {x: 60.49066, y: 26.86267}
+        - {x: 60.49066, y: 47.86267}
+    - name: HeroAnimations_12
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 491
+        width: 178
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.757324, y: 80.68933}
+        - {x: -53.757324, y: 41.68933}
+        - {x: -60.757324, y: -12.310669}
+        - {x: -60.757324, y: -80.31067}
+        - {x: 61.242676, y: -80.31067}
+        - {x: 61.242676, y: 69.68933}
+        - {x: 40.242676, y: 80.68933}
+    - name: HeroAnimations_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 488
+        width: 203
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49.66797, y: 79.64133}
+        - {x: -1.3320312, y: 79.64133}
+        - {x: -43.33203, y: 45.641327}
+        - {x: -69.33203, y: -16.358673}
+        - {x: -69.33203, y: -64.35867}
+        - {x: -35.33203, y: -79.35867}
+        - {x: 30.667969, y: -79.35867}
+        - {x: 31.667969, y: -74.35867}
+        - {x: 69.66797, y: 0.6413269}
+        - {x: 69.66797, y: 46.641327}
+    - name: HeroAnimations_14
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 488
+        width: 169
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 39.17865, y: 80.64133}
+        - {x: -22.82135, y: 80.64133}
+        - {x: -57.82135, y: 44.641327}
+        - {x: -57.82135, y: -80.35867}
+        - {x: -45.82135, y: -80.35867}
+        - {x: -39.82135, y: -73.35867}
+        - {x: -37.82135, y: -68.35867}
+        - {x: -37.82135, y: -64.35867}
+        - {x: -37.82135, y: -73.35867}
+        - {x: -32.82135, y: -79.35867}
+        - {x: -28.82135, y: -80.35867}
+        - {x: 9.17865, y: -80.35867}
+        - {x: 30.17865, y: -44.358673}
+        - {x: 58.17865, y: 20.641327}
+        - {x: 58.17865, y: 54.641327}
+    - name: HeroAnimations_15
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 485
+        width: 168
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38.38672, y: 82.09332}
+        - {x: -57.38672, y: 44.093323}
+        - {x: -57.38672, y: -57.906677}
+        - {x: -23.386719, y: -81.90668}
+        - {x: 37.61328, y: -81.90668}
+        - {x: 58.61328, y: -69.90668}
+        - {x: 58.61328, y: 82.09332}
+    - name: HeroAnimations_16
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 495
+        width: 178
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 47.221313, y: -16.080017}
+        - {x: 61.221313, y: 16.919983}
+        - {x: 61.221313, y: 50.919983}
+        - {x: 46.221313, y: 79.91998}
+        - {x: -45.778687, y: 79.91998}
+        - {x: -60.778687, y: 75.91998}
+        - {x: -60.778687, y: -78.08002}
+        - {x: 30.221313, y: -78.08002}
+        - {x: 40.221313, y: -44.080017}
+        - {x: 34.221313, y: -38.080017}
+        - {x: 29.221313, y: -36.080017}
+    - name: HeroAnimations_17
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 493
+        width: 179
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.9346924, y: -37.945343}
+        - {x: -0.06530762, y: -35.945343}
+        - {x: -0.06530762, y: -36.945343}
+        - {x: 0.9346924, y: -35.945343}
+        - {x: 3.9346924, y: -37.945343}
+        - {x: 6.9346924, y: -37.945343}
+        - {x: 9.934692, y: -41.945343}
+        - {x: 10.934692, y: -45.945343}
+        - {x: 22.934692, y: -52.945343}
+        - {x: 61.934692, y: 1.054657}
+        - {x: 61.934692, y: 45.054657}
+        - {x: 38.934692, y: 80.05466}
+        - {x: -26.065308, y: 80.05466}
+        - {x: -61.065308, y: 9.054657}
+        - {x: -61.065308, y: -73.94534}
+        - {x: -53.065308, y: -78.94534}
+        - {x: 11.934692, y: -78.94534}
+        - {x: 17.934692, y: -75.94534}
+        - {x: 13.934692, y: -59.945343}
+        - {x: 7.9346924, y: -39.945343}
+        - {x: 5.9346924, y: -37.945343}
+    - name: HeroAnimations_18
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 223
+        width: 175
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.152, y: 78.734665}
+        - {x: -18.848, y: 78.734665}
+        - {x: -59.848, y: 54.734665}
+        - {x: -59.848, y: -75.265335}
+        - {x: -53.848, y: -78.265335}
+        - {x: 4.1520004, y: -78.265335}
+        - {x: 60.152, y: 6.734665}
+        - {x: 60.152, y: 57.734665}
+        - {x: 46.152, y: 76.734665}
+    - name: HeroAnimations_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 223
+        width: 166
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.221329, y: 80.234665}
+        - {x: -12.778671, y: 80.234665}
+        - {x: -56.77867, y: 54.234665}
+        - {x: -56.77867, y: -58.765335}
+        - {x: -48.77867, y: -79.765335}
+        - {x: 53.22133, y: -79.765335}
+        - {x: 57.22133, y: -62.765335}
+        - {x: 57.22133, y: 48.234665}
+    - name: HeroAnimations_20
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 242
+        width: 158
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.108, y: 67.70534}
+        - {x: 38.108, y: 73.70534}
+        - {x: -27.891998, y: 73.70534}
+        - {x: -53.892, y: 52.705338}
+        - {x: -53.892, y: -73.29466}
+        - {x: -31.891998, y: -73.29466}
+        - {x: -13.891998, y: -65.29466}
+        - {x: 0.10800171, y: -73.29466}
+        - {x: 55.108, y: -73.29466}
+    - name: HeroAnimations_21
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 242
+        width: 160
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.59198, y: 73.70534}
+        - {x: -54.59198, y: -73.29466}
+        - {x: 5.40802, y: -73.29466}
+        - {x: 55.40802, y: -58.294662}
+        - {x: 55.40802, y: 62.705338}
+        - {x: 51.40802, y: 73.70534}
+    - name: HeroAnimations_22
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 241
+        width: 164
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.657349, y: 74.52266}
+        - {x: -52.65735, y: 41.52266}
+        - {x: -55.65735, y: 2.5226593}
+        - {x: -55.65735, y: -36.47734}
+        - {x: -46.65735, y: -41.47734}
+        - {x: -38.65735, y: -39.47734}
+        - {x: -34.65735, y: -34.47734}
+        - {x: -33.65735, y: -25.47734}
+        - {x: -30.657349, y: -35.47734}
+        - {x: -29.657349, y: -38.47734}
+        - {x: -36.65735, y: -38.47734}
+        - {x: -39.65735, y: -42.47734}
+        - {x: -46.65735, y: -59.47734}
+        - {x: -49.65735, y: -70.47734}
+        - {x: -49.65735, y: -73.47734}
+        - {x: 9.342651, y: -73.47734}
+        - {x: 57.34265, y: -56.47734}
+        - {x: 57.34265, y: 51.52266}
+        - {x: 54.34265, y: 74.52266}
+    - name: HeroAnimations_23
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 239
+        width: 171
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.911987, y: 74.65733}
+        - {x: -16.088013, y: 74.65733}
+        - {x: -45.088013, y: 49.657333}
+        - {x: -47.088013, y: 31.657333}
+        - {x: -58.088013, y: -9.342667}
+        - {x: -58.088013, y: -33.342667}
+        - {x: -47.088013, y: -43.342667}
+        - {x: -37.088013, y: -37.342667}
+        - {x: -33.088013, y: -34.342667}
+        - {x: -39.088013, y: -43.342667}
+        - {x: -48.088013, y: -74.34267}
+        - {x: -7.0880127, y: -74.34267}
+        - {x: 27.911987, y: -65.34267}
+        - {x: 35.911987, y: -62.342667}
+        - {x: 59.911987, y: -48.342667}
+    - name: HeroAnimations_24
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 225
+        width: 170
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59.26001, y: -40.90001}
+        - {x: 29.26001, y: -19.90001}
+        - {x: 57.26001, y: 14.099991}
+        - {x: 59.26001, y: 18.09999}
+        - {x: 59.26001, y: 37.09999}
+        - {x: 37.26001, y: 80.09999}
+        - {x: -37.73999, y: 80.09999}
+        - {x: -57.73999, y: 44.09999}
+        - {x: -57.73999, y: -53.90001}
+        - {x: -29.73999, y: -78.90001}
+        - {x: -13.73999, y: -78.90001}
+        - {x: 51.26001, y: -53.90001}
+        - {x: 56.26001, y: -48.90001}
+        - {x: 59.26001, y: -42.90001}
+    - name: HeroAnimations_25
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 225
+        width: 182
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.03601, y: -50.40001}
+        - {x: -40.03601, y: -78.40001}
+        - {x: 38.96399, y: -78.40001}
+        - {x: 62.96399, y: -63.40001}
+        - {x: 62.96399, y: 79.59999}
+        - {x: -36.03601, y: 79.59999}
+        - {x: -62.03601, y: 38.59999}
+    - name: HeroAnimations_26
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 228
+        width: 183
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 58.359985, y: 3.647995}
+        - {x: 63.359985, y: 8.647995}
+        - {x: 63.359985, y: 59.647995}
+        - {x: 48.359985, y: 78.647995}
+        - {x: -29.640015, y: 78.647995}
+        - {x: -44.640015, y: 68.647995}
+        - {x: -62.640015, y: 24.647995}
+        - {x: -62.640015, y: -24.352005}
+        - {x: -61.640015, y: -25.352005}
+        - {x: -46.640015, y: -30.352005}
+        - {x: -25.640015, y: -60.352005}
+        - {x: -6.6400146, y: -77.352005}
+        - {x: 36.359985, y: -77.352005}
+        - {x: 39.359985, y: -62.352005}
+        - {x: 29.359985, y: -33.352005}
+        - {x: 20.359985, y: -25.352005}
+    - name: HeroAnimations_27
+      rect:
+        serializedVersion: 2
+        x: 2794
+        y: 220
+        width: 161
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.129395, y: -80.31334}
+        - {x: 18.870605, y: -80.31334}
+        - {x: 55.870605, y: -31.31334}
+        - {x: 55.870605, y: 42.68666}
+        - {x: 51.870605, y: 73.68666}
+        - {x: 34.870605, y: 80.68666}
+        - {x: -11.129395, y: 80.68666}
+        - {x: -55.129395, y: 60.68666}
+        - {x: -55.129395, y: -50.31334}
+        - {x: -50.129395, y: -69.31334}
+        - {x: -22.129395, y: -80.31334}
+        - {x: -12.129395, y: -80.31334}
+        - {x: -11.129395, y: -77.31334}
+        - {x: -11.129395, y: -73.31334}
+        - {x: -11.129395, y: -75.31334}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

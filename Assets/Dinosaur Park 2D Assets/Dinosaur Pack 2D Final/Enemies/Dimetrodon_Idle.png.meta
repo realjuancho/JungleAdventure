@@ -1,0 +1,340 @@
+fileFormatVersion: 2
+guid: b757734050c8d484eb8eb20ac0da98d2
+timeCreated: 1459483635
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Dimetrodon_Idle_0
+    21300002: Dimetrodon_Idle_1
+    21300004: Dimetrodon_Idle_2
+    21300006: Dimetrodon_Idle_3
+    21300008: Dimetrodon_Idle_4
+    21300010: Dimetrodon_Idle_5
+    21300012: Dimetrodon_Idle_6
+    21300014: Dimetrodon_Idle_7
+    21300016: Dimetrodon_Idle_8
+    21300018: Dimetrodon_Idle_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Dimetrodon_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: 117}
+        - {x: 35, y: 140}
+        - {x: -14, y: 209}
+        - {x: -17, y: 207}
+        - {x: -17, y: 241}
+        - {x: -116, y: 241}
+        - {x: -163, y: 173}
+        - {x: -216, y: 69}
+        - {x: -216, y: 57}
+        - {x: -195, y: 45}
+        - {x: -140, y: 11}
+        - {x: 42, y: 11}
+        - {x: 122, y: 27}
+        - {x: 132, y: 42}
+        - {x: 132, y: 85}
+    - name: Dimetrodon_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1540
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: 187}
+        - {x: 1, y: 224}
+        - {x: -33, y: 240}
+        - {x: -112, y: 240}
+        - {x: -138, y: 207}
+        - {x: -158, y: 198}
+        - {x: -178, y: 125}
+        - {x: -216, y: 71}
+        - {x: -216, y: 48}
+        - {x: -215, y: 45}
+        - {x: -132, y: 12}
+        - {x: -122, y: 11}
+        - {x: 38, y: 11}
+        - {x: 132, y: 23}
+        - {x: 132, y: 98}
+        - {x: 53, y: 141}
+    - name: Dimetrodon_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1540
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 141}
+        - {x: 13, y: 162}
+        - {x: -7, y: 227}
+        - {x: -28, y: 240}
+        - {x: -99, y: 240}
+        - {x: -136, y: 217}
+        - {x: -163, y: 179}
+        - {x: -160, y: 92}
+        - {x: -216, y: 67}
+        - {x: -216, y: 57}
+        - {x: -212, y: 50}
+        - {x: -196, y: 47}
+        - {x: -138, y: 11}
+        - {x: 57, y: 11}
+        - {x: 119, y: 29}
+        - {x: 131, y: 41}
+        - {x: 131, y: 85}
+    - name: Dimetrodon_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1540
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93, y: 24}
+        - {x: 124, y: 28}
+        - {x: 131, y: 40}
+        - {x: 131, y: 94}
+        - {x: 0, y: 239}
+        - {x: -109, y: 239}
+        - {x: -177, y: 181}
+        - {x: -216, y: 72}
+        - {x: -216, y: 59}
+        - {x: -213, y: 54}
+        - {x: -196, y: 46}
+        - {x: -141, y: 11}
+        - {x: 35, y: 11}
+        - {x: 36, y: 12}
+        - {x: 43, y: 26}
+        - {x: 38, y: 25}
+    - name: Dimetrodon_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1032
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55, y: 136}
+        - {x: -11, y: 206}
+        - {x: -15, y: 204}
+        - {x: -16, y: 199}
+        - {x: -34, y: 229}
+        - {x: -41, y: 239}
+        - {x: -129, y: 239}
+        - {x: -147, y: 230}
+        - {x: -162, y: 189}
+        - {x: -168, y: 98}
+        - {x: -216, y: 67}
+        - {x: -216, y: 52}
+        - {x: -179, y: 38}
+        - {x: -141, y: 11}
+        - {x: 77, y: 11}
+        - {x: 130, y: 16}
+        - {x: 130, y: 85}
+    - name: Dimetrodon_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1032
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 20}
+        - {x: 129, y: 85}
+        - {x: 49, y: 150}
+        - {x: 25, y: 206}
+        - {x: -10, y: 238}
+        - {x: -104, y: 238}
+        - {x: -144, y: 213}
+        - {x: -162, y: 176}
+        - {x: -162, y: 85}
+        - {x: -216, y: 67}
+        - {x: -216, y: 34}
+        - {x: -180, y: 11}
+        - {x: 38, y: 11}
+        - {x: 36, y: 22}
+        - {x: 19, y: 33}
+        - {x: 93, y: 15}
+    - name: Dimetrodon_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 1032
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 141}
+        - {x: 27, y: 129}
+        - {x: -5, y: 219}
+        - {x: -31, y: 238}
+        - {x: -111, y: 238}
+        - {x: -136, y: 216}
+        - {x: -162, y: 189}
+        - {x: -168, y: 98}
+        - {x: -216, y: 67}
+        - {x: -216, y: 52}
+        - {x: -179, y: 38}
+        - {x: -140, y: 11}
+        - {x: 107, y: 11}
+        - {x: 129, y: 28}
+        - {x: 129, y: 87}
+    - name: Dimetrodon_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1032
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 207}
+        - {x: -16, y: 204}
+        - {x: -16, y: 190}
+        - {x: -16, y: 192}
+        - {x: -29, y: 239}
+        - {x: -105, y: 239}
+        - {x: -146, y: 215}
+        - {x: -216, y: 70}
+        - {x: -216, y: 59}
+        - {x: -213, y: 54}
+        - {x: -196, y: 46}
+        - {x: -140, y: 11}
+        - {x: 90, y: 11}
+        - {x: 130, y: 14}
+        - {x: 130, y: 97}
+        - {x: -4, y: 210}
+    - name: Dimetrodon_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 524
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66, y: 132}
+        - {x: 37, y: 128}
+        - {x: -2, y: 222}
+        - {x: -29, y: 240}
+        - {x: -122, y: 240}
+        - {x: -178, y: 184}
+        - {x: -160, y: 92}
+        - {x: -216, y: 67}
+        - {x: -216, y: 57}
+        - {x: -212, y: 50}
+        - {x: -196, y: 47}
+        - {x: -132, y: 12}
+        - {x: -122, y: 11}
+        - {x: 38, y: 11}
+        - {x: 130, y: 27}
+        - {x: 131, y: 32}
+        - {x: 131, y: 84}
+    - name: Dimetrodon_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 524
+        width: 864
+        height: 508
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 96}
+        - {x: 56, y: 139}
+        - {x: 0, y: 222}
+        - {x: -32, y: 240}
+        - {x: -101, y: 240}
+        - {x: -138, y: 209}
+        - {x: -153, y: 177}
+        - {x: -153, y: 174}
+        - {x: -161, y: 124}
+        - {x: -216, y: 69}
+        - {x: -216, y: 48}
+        - {x: -215, y: 45}
+        - {x: -132, y: 12}
+        - {x: -122, y: 11}
+        - {x: 38, y: 11}
+        - {x: 128, y: 29}
+        - {x: 131, y: 41}
+        - {x: 131, y: 83}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: d238d55f8d2964aa99718d3c457c96cb
+timeCreated: 1459119951
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dimetrodonAnimations_2_0
+    21300002: dimetrodonAnimations_2_1
+    21300004: dimetrodonAnimations_2_2
+    21300006: dimetrodonAnimations_2_3
+    21300008: dimetrodonAnimations_2_4
+    21300010: dimetrodonAnimations_2_5
+    21300012: dimetrodonAnimations_2_6
+    21300014: dimetrodonAnimations_2_7
+    21300016: dimetrodonAnimations_2_8
+    21300018: dimetrodonAnimations_2_9
+    21300020: dimetrodonAnimations_2_10
+    21300022: dimetrodonAnimations_2_11
+    21300024: dimetrodonAnimations_2_12
+    21300026: dimetrodonAnimations_2_13
+    21300028: dimetrodonAnimations_2_14
+    21300030: dimetrodonAnimations_2_15
+    21300032: dimetrodonAnimations_2_16
+    21300034: dimetrodonAnimations_2_17
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dimetrodonAnimations_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 758
+        width: 348
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: 86.78528}
+        - {x: 32, y: 117.78528}
+        - {x: 29, y: 115.78528}
+        - {x: 27, y: 113.78528}
+        - {x: 23, y: 127.78528}
+        - {x: 19, y: 134.78528}
+        - {x: 12, y: 156.78528}
+        - {x: -93, y: 156.78528}
+        - {x: -119, y: 101.78528}
+        - {x: -119, y: 13.785278}
+        - {x: -68, y: -0.21472168}
+        - {x: 114, y: -0.21472168}
+        - {x: 119, y: 5.7852783}
+        - {x: 119, y: 49.78528}
+    - name: dimetrodonAnimations_2_1
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 756
+        width: 351
+        height: 234
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 120.343994, y: 100.96802}
+        - {x: 57.343994, y: 159.96802}
+        - {x: -117.656006, y: 159.96802}
+        - {x: -119.656006, y: 156.96802}
+        - {x: -119.656006, y: 1.9680176}
+        - {x: -113.656006, y: -0.031982422}
+        - {x: 40.343994, y: -0.031982422}
+        - {x: 36.343994, y: 8.968018}
+        - {x: 105.343994, y: 10.968018}
+        - {x: 120.343994, y: 16.968018}
+    - name: dimetrodonAnimations_2_2
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 755
+        width: 349
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92.87067, y: 34.054688}
+        - {x: 73.87067, y: 45.054688}
+        - {x: 71.87067, y: 45.054688}
+        - {x: 98.87067, y: 50.054688}
+        - {x: 119.87067, y: 61.054688}
+        - {x: 119.87067, y: 79.05469}
+        - {x: 112.87067, y: 98.05469}
+        - {x: 25.870667, y: 132.05469}
+        - {x: 23.870667, y: 128.05469}
+        - {x: 23.870667, y: 122.05469}
+        - {x: 23.870667, y: 124.05469}
+        - {x: 18.870667, y: 142.05469}
+        - {x: 12.8706665, y: 149.05469}
+        - {x: 9.8706665, y: 147.05469}
+        - {x: 3.8706665, y: 155.05469}
+        - {x: -43.129333, y: 155.05469}
+        - {x: -86.12933, y: 137.05469}
+        - {x: -119.12933, y: 52.054688}
+        - {x: -119.12933, y: 35.054688}
+        - {x: -98.12933, y: 0.0546875}
+        - {x: 119.87067, y: 0.0546875}
+        - {x: 119.87067, y: 17.054688}
+        - {x: 106.87067, y: 28.054688}
+    - name: dimetrodonAnimations_2_3
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 755
+        width: 351
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.282654, y: 131.05469}
+        - {x: 23.282654, y: 129.05469}
+        - {x: 23.282654, y: 122.05469}
+        - {x: 23.282654, y: 124.05469}
+        - {x: 17.282654, y: 133.05469}
+        - {x: 16.282654, y: 141.05469}
+        - {x: 15.282654, y: 145.05469}
+        - {x: 12.282654, y: 148.05469}
+        - {x: 9.282654, y: 147.05469}
+        - {x: 3.2826538, y: 155.05469}
+        - {x: -66.71735, y: 155.05469}
+        - {x: -75.71735, y: 152.05469}
+        - {x: -119.71735, y: 92.05469}
+        - {x: -119.71735, y: 15.0546875}
+        - {x: -80.71735, y: 0.0546875}
+        - {x: 120.28265, y: 0.0546875}
+        - {x: 120.28265, y: 90.05469}
+        - {x: 36.282654, y: 137.05469}
+    - name: dimetrodonAnimations_2_4
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 758
+        width: 349
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.305298, y: 153.07861}
+        - {x: -70.3053, y: 150.07861}
+        - {x: -119.3053, y: 66.07861}
+        - {x: -119.3053, y: 29.078613}
+        - {x: -71.3053, y: 0.07861328}
+        - {x: 119.6947, y: 0.07861328}
+        - {x: 119.6947, y: 79.07861}
+        - {x: 32.694702, y: 153.07861}
+    - name: dimetrodonAnimations_2_5
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 753
+        width: 349
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -87.95068, y: 156.71332}
+        - {x: -118.95068, y: 90.71332}
+        - {x: -118.95068, y: 14.713318}
+        - {x: -99.95068, y: -0.28668213}
+        - {x: 94.04932, y: -0.28668213}
+        - {x: 120.04932, y: 5.713318}
+        - {x: 120.04932, y: 60.713318}
+        - {x: 43.049316, y: 156.71332}
+    - name: dimetrodonAnimations_2_6
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 502
+        width: 349
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 112.932, y: 15.022675}
+        - {x: 119.932, y: 19.022675}
+        - {x: 119.932, y: 106.022675}
+        - {x: 74.932, y: 157.02267}
+        - {x: -89.068, y: 157.02267}
+        - {x: -119.068, y: 73.022675}
+        - {x: -119.068, y: 28.022675}
+        - {x: -112.068, y: 24.022675}
+        - {x: -47.068, y: 0.02267456}
+        - {x: 44.932, y: 0.02267456}
+        - {x: 47.932, y: 8.022675}
+        - {x: 41.932, y: 14.022675}
+        - {x: 93.932, y: 12.022675}
+    - name: dimetrodonAnimations_2_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 500
+        width: 347
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119.46933, y: 19.840027}
+        - {x: 119.46933, y: 83.84003}
+        - {x: 35.46933, y: 157.84003}
+        - {x: -45.53067, y: 157.84003}
+        - {x: -118.53067, y: 70.84003}
+        - {x: -118.53067, y: 12.840027}
+        - {x: -93.53067, y: -0.15997314}
+        - {x: 50.46933, y: -0.15997314}
+        - {x: 51.46933, y: 2.8400269}
+        - {x: 49.46933, y: 10.840027}
+        - {x: 107.46933, y: 4.840027}
+    - name: dimetrodonAnimations_2_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 348
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34, y: 135.99066}
+        - {x: 19, y: 134.99066}
+        - {x: 16, y: 133.99066}
+        - {x: 3, y: 152.99066}
+        - {x: 0, y: 149.99066}
+        - {x: -7, y: 156.99066}
+        - {x: -68, y: 156.99066}
+        - {x: -119, y: 84.99066}
+        - {x: -119, y: 8.990662}
+        - {x: -80, y: -0.009338379}
+        - {x: 108, y: -0.009338379}
+        - {x: 119, y: 17.990662}
+        - {x: 119, y: 72.99066}
+    - name: dimetrodonAnimations_2_9
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 244
+        width: 346
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -51.93466, y: 162.96666}
+        - {x: -67.93466, y: 151.96666}
+        - {x: -117.93466, y: 64.96666}
+        - {x: -117.93466, y: 35.96666}
+        - {x: -96.93466, y: -0.033340454}
+        - {x: 119.06534, y: -0.033340454}
+        - {x: 119.06534, y: 93.96666}
+        - {x: 27.065338, y: 162.96666}
+    - name: dimetrodonAnimations_2_10
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 247
+        width: 346
+        height: 231
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.899963, y: 156.96667}
+        - {x: 3.8999634, y: 158.96667}
+        - {x: -6.1000366, y: 158.96667}
+        - {x: -7.1000366, y: 157.96667}
+        - {x: -10.100037, y: 158.96667}
+        - {x: -51.100037, y: 158.96667}
+        - {x: -84.10004, y: 136.96667}
+        - {x: -118.10004, y: 57.966675}
+        - {x: -118.10004, y: 30.966675}
+        - {x: -104.10004, y: -0.033325195}
+        - {x: 118.89996, y: -0.033325195}
+        - {x: 118.89996, y: 48.966675}
+        - {x: 51.899963, y: 129.96667}
+    - name: dimetrodonAnimations_2_11
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 248
+        width: 344
+        height: 223
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 94.50397, y: 68.91867}
+        - {x: 49.503967, y: 111.91867}
+        - {x: 39.503967, y: 108.91867}
+        - {x: 38.503967, y: 138.91867}
+        - {x: 28.503967, y: 152.91867}
+        - {x: -59.496033, y: 152.91867}
+        - {x: -117.49603, y: 95.91867}
+        - {x: -117.49603, y: 13.918671}
+        - {x: -96.49603, y: -0.081329346}
+        - {x: 118.50397, y: -0.081329346}
+        - {x: 118.50397, y: 36.91867}
+        - {x: 117.50397, y: 41.91867}
+    - name: dimetrodonAnimations_2_12
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 244
+        width: 348
+        height: 228
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 57.425293, y: 156.89465}
+        - {x: -59.574707, y: 156.89465}
+        - {x: -118.57471, y: 88.89465}
+        - {x: -118.57471, y: 8.894653}
+        - {x: -113.57471, y: -0.10534668}
+        - {x: 111.42529, y: -0.10534668}
+        - {x: 120.42529, y: 10.894653}
+        - {x: 120.42529, y: 80.89465}
+    - name: dimetrodonAnimations_2_13
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 245
+        width: 353
+        height: 220
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -75.701294, y: 150.84665}
+        - {x: -120.701294, y: 91.84665}
+        - {x: -120.701294, y: 42.84665}
+        - {x: -110.701294, y: 33.84665}
+        - {x: -120.701294, y: 16.84665}
+        - {x: -120.701294, y: 5.846649}
+        - {x: -111.701294, y: -0.15335083}
+        - {x: 121.298706, y: -0.15335083}
+        - {x: 121.298706, y: 58.84665}
+        - {x: 24.298706, y: 150.84665}
+    - name: dimetrodonAnimations_2_14
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 365
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65.57867, y: 135.92532}
+        - {x: -124.57867, y: 67.92533}
+        - {x: -124.57867, y: -0.074668884}
+        - {x: 125.42133, y: -0.074668884}
+        - {x: 125.42133, y: 55.92533}
+        - {x: 60.421333, y: 135.92532}
+    - name: dimetrodonAnimations_2_15
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 0
+        width: 356
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.381317, y: 126.92533}
+        - {x: 23.381317, y: 135.92532}
+        - {x: -55.618683, y: 135.92532}
+        - {x: -121.61868, y: 93.92533}
+        - {x: -121.61868, y: -0.074668884}
+        - {x: 122.38132, y: -0.074668884}
+        - {x: 122.38132, y: 25.925331}
+        - {x: 113.38132, y: 41.92533}
+        - {x: 39.381317, y: 115.92533}
+        - {x: 22.381317, y: 126.92533}
+    - name: dimetrodonAnimations_2_16
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 356
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.293335, y: 133.92532}
+        - {x: 21.293335, y: 126.92533}
+        - {x: 18.293335, y: 122.92533}
+        - {x: 12.293335, y: 135.92532}
+        - {x: -40.706665, y: 135.92532}
+        - {x: -57.706665, y: 131.92532}
+        - {x: -74.706665, y: 85.92533}
+        - {x: -61.706665, y: 70.92533}
+        - {x: -63.706665, y: 67.92533}
+        - {x: -62.706665, y: 67.92533}
+        - {x: -63.706665, y: 69.92533}
+        - {x: -67.706665, y: 72.92533}
+        - {x: -73.706665, y: 73.92533}
+        - {x: -79.706665, y: 60.92533}
+        - {x: -121.706665, y: 37.92533}
+        - {x: -121.706665, y: 31.925331}
+        - {x: -114.706665, y: 24.925331}
+        - {x: -121.706665, y: 5.925331}
+        - {x: -121.706665, y: -0.074668884}
+        - {x: 121.293335, y: -0.074668884}
+        - {x: 122.293335, y: 0.9253311}
+        - {x: 122.293335, y: 26.925331}
+    - name: dimetrodonAnimations_2_17
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 0
+        width: 356
+        height: 199
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.205322, y: 132.92532}
+        - {x: 7.2053223, y: 135.92532}
+        - {x: -29.794678, y: 135.92532}
+        - {x: -57.794678, y: 126.92533}
+        - {x: -64.79468, y: 101.92533}
+        - {x: -67.79468, y: 85.92533}
+        - {x: -65.79468, y: 75.92533}
+        - {x: -61.794678, y: 70.92533}
+        - {x: -63.794678, y: 67.92533}
+        - {x: -62.794678, y: 67.92533}
+        - {x: -63.794678, y: 69.92533}
+        - {x: -67.79468, y: 72.92533}
+        - {x: -71.79468, y: 72.92533}
+        - {x: -121.79468, y: 41.92533}
+        - {x: -121.79468, y: -0.074668884}
+        - {x: 122.20532, y: -0.074668884}
+        - {x: 122.20532, y: 35.92533}
+        - {x: 45.205322, y: 135.92532}
+        - {x: 21.205322, y: 135.92532}
+        - {x: 18.205322, y: 122.92533}
+        - {x: 17.205322, y: 116.92533}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

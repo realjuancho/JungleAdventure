@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 6825e788487564d71b39f00322395e33
+timeCreated: 1459823416
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HeroAnimations_Actions_0
+    21300002: HeroAnimations_Actions_1
+    21300004: HeroAnimations_Actions_2
+    21300006: HeroAnimations_Actions_3
+    21300008: HeroAnimations_Actions_4
+    21300010: HeroAnimations_Actions_5
+    21300012: HeroAnimations_Actions_6
+    21300014: HeroAnimations_Actions_7
+    21300016: HeroAnimations_Actions_8
+    21300018: HeroAnimations_Actions_9
+    21300020: HeroAnimations_Actions_10
+    21300022: HeroAnimations_Actions_11
+    21300024: HeroAnimations_Actions_12
+    21300026: HeroAnimations_Actions_13
+    21300028: HeroAnimations_Actions_14
+    21300030: HeroAnimations_Actions_15
+    21300032: HeroAnimations_Actions_16
+    21300034: HeroAnimations_Actions_17
+    21300036: HeroAnimations_Actions_18
+    21300038: HeroAnimations_Actions_19
+    21300040: HeroAnimations_Actions_20
+    21300042: HeroAnimations_Actions_21
+    21300044: HeroAnimations_Actions_22
+    21300046: HeroAnimations_Actions_23
+    21300048: HeroAnimations_Actions_24
+    21300050: HeroAnimations_Actions_25
+    21300052: HeroAnimations_Actions_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HeroAnimations_Actions_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63, y: 119}
+        - {x: -82, y: 84}
+        - {x: -82, y: -39}
+        - {x: -64, y: -120}
+        - {x: -56, y: -125}
+        - {x: 60, y: -125}
+        - {x: 73, y: -10}
+        - {x: 73, y: 94}
+        - {x: 23, y: 119}
+    - name: HeroAnimations_Actions_1
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88, y: 105}
+        - {x: -33, y: 105}
+        - {x: -61, y: 65}
+        - {x: -61, y: -125}
+        - {x: 47, y: -125}
+        - {x: 59, y: -36}
+        - {x: 95, y: 6}
+        - {x: 95, y: 86}
+    - name: HeroAnimations_Actions_2
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: 73}
+        - {x: 73, y: 88}
+        - {x: 24, y: 88}
+        - {x: -44, y: 66}
+        - {x: -61, y: -48}
+        - {x: -61, y: -126}
+        - {x: 48, y: -126}
+        - {x: 49, y: -109}
+        - {x: 106, y: -29}
+        - {x: 106, y: 20}
+    - name: HeroAnimations_Actions_3
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 81}
+        - {x: -61, y: -36}
+        - {x: -61, y: -123}
+        - {x: -60, y: -125}
+        - {x: -11, y: -126}
+        - {x: -9, y: -122}
+        - {x: -8, y: -119}
+        - {x: -8, y: -114}
+        - {x: -9, y: -109}
+        - {x: -16, y: -101}
+        - {x: -8, y: -110}
+        - {x: -8, y: -117}
+        - {x: -5, y: -121}
+        - {x: 32, y: -126}
+        - {x: 44, y: -126}
+        - {x: 107, y: -80}
+        - {x: 107, y: 81}
+    - name: HeroAnimations_Actions_4
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 74}
+        - {x: -61, y: 52}
+        - {x: -61, y: -122}
+        - {x: -25, y: -126}
+        - {x: -10, y: -126}
+        - {x: -8, y: -119}
+        - {x: -8, y: -114}
+        - {x: -9, y: -109}
+        - {x: -16, y: -101}
+        - {x: -7, y: -108}
+        - {x: -8, y: -117}
+        - {x: -8, y: -124}
+        - {x: 2, y: -126}
+        - {x: 88, y: -126}
+        - {x: 113, y: -95}
+        - {x: 113, y: 71}
+        - {x: 112, y: 74}
+    - name: HeroAnimations_Actions_5
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -40}
+        - {x: 119, y: 70}
+        - {x: -14, y: 70}
+        - {x: -19, y: 69}
+        - {x: -55, y: -44}
+        - {x: -61, y: -80}
+        - {x: -61, y: -122}
+        - {x: -25, y: -126}
+        - {x: -10, y: -126}
+        - {x: -8, y: -123}
+        - {x: -7, y: -114}
+        - {x: -9, y: -109}
+        - {x: -16, y: -101}
+        - {x: -6, y: -104}
+        - {x: -8, y: -119}
+        - {x: -4, y: -121}
+        - {x: 39, y: -126}
+        - {x: 43, y: -126}
+        - {x: 46, y: -124}
+        - {x: 46, y: -110}
+        - {x: 101, y: -69}
+    - name: HeroAnimations_Actions_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 72}
+        - {x: -57, y: 4}
+        - {x: -61, y: -23}
+        - {x: -61, y: -121}
+        - {x: -38, y: -125}
+        - {x: 82, y: -125}
+        - {x: 117, y: -45}
+        - {x: 117, y: 72}
+    - name: HeroAnimations_Actions_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 116, y: -24}
+        - {x: 116, y: 44}
+        - {x: 78, y: 73}
+        - {x: 74, y: 74}
+        - {x: -3, y: 74}
+        - {x: -59, y: -24}
+        - {x: -61, y: -45}
+        - {x: -61, y: -125}
+        - {x: 40, y: -125}
+        - {x: 42, y: -123}
+        - {x: 42, y: -104}
+        - {x: 103, y: -63}
+    - name: HeroAnimations_Actions_8
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 102, y: 75}
+        - {x: -13, y: 75}
+        - {x: -22, y: 69}
+        - {x: -61, y: -8}
+        - {x: -61, y: -125}
+        - {x: 60, y: -125}
+        - {x: 114, y: -53}
+        - {x: 114, y: 60}
+    - name: HeroAnimations_Actions_9
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 86, y: 100}
+        - {x: -11, y: 100}
+        - {x: -57, y: 90}
+        - {x: -63, y: 39}
+        - {x: -63, y: -121}
+        - {x: -45, y: -125}
+        - {x: 46, y: -125}
+        - {x: 39, y: -74}
+        - {x: 97, y: -6}
+        - {x: 97, y: 58}
+    - name: HeroAnimations_Actions_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 117}
+        - {x: -40, y: 117}
+        - {x: -95, y: 69}
+        - {x: -95, y: -123}
+        - {x: 57, y: -123}
+        - {x: 9, y: -41}
+        - {x: 61, y: 31}
+        - {x: 61, y: 70}
+    - name: HeroAnimations_Actions_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 109}
+        - {x: -67, y: 109}
+        - {x: -84, y: 106}
+        - {x: -93, y: 49}
+        - {x: -95, y: -62}
+        - {x: -95, y: -126}
+        - {x: 45, y: -126}
+        - {x: 77, y: -21}
+        - {x: 77, y: 52}
+        - {x: 62, y: 90}
+    - name: HeroAnimations_Actions_12
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -123}
+        - {x: 34, y: -116}
+        - {x: 26, y: -67}
+        - {x: 54, y: -79}
+        - {x: 63, y: -61}
+        - {x: 63, y: 95}
+        - {x: 59, y: 115}
+        - {x: -76, y: 115}
+        - {x: -95, y: 98}
+        - {x: -95, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -43, y: -112}
+        - {x: 6, y: -123}
+    - name: HeroAnimations_Actions_13
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -98, y: 118}
+        - {x: -128, y: 63}
+        - {x: -128, y: -106}
+        - {x: -110, y: -123}
+        - {x: -5, y: -123}
+        - {x: 32, y: -118}
+        - {x: 41, y: -96}
+        - {x: 41, y: 70}
+        - {x: 25, y: 118}
+    - name: HeroAnimations_Actions_14
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35, y: -3}
+        - {x: 35, y: 75}
+        - {x: 18, y: 103}
+        - {x: 0, y: 118}
+        - {x: -70, y: 118}
+        - {x: -127, y: 85}
+        - {x: -127, y: -84}
+        - {x: -116, y: -123}
+        - {x: -12, y: -123}
+        - {x: 17, y: -119}
+        - {x: 34, y: -107}
+        - {x: 26, y: -53}
+        - {x: 12, y: -42}
+    - name: HeroAnimations_Actions_15
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -81, y: 120}
+        - {x: -116, y: 105}
+        - {x: -116, y: -59}
+        - {x: -115, y: -61}
+        - {x: -73, y: -59}
+        - {x: -68, y: -51}
+        - {x: -69, y: -40}
+        - {x: -66, y: -35}
+        - {x: -68, y: -57}
+        - {x: -94, y: -104}
+        - {x: -97, y: -123}
+        - {x: 39, y: -123}
+        - {x: 39, y: 95}
+        - {x: 26, y: 120}
+    - name: HeroAnimations_Actions_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -123}
+        - {x: 43, y: -106}
+        - {x: 50, y: -28}
+        - {x: 50, y: 55}
+        - {x: 4, y: 119}
+        - {x: -57, y: 119}
+        - {x: -105, y: 70}
+        - {x: -105, y: -78}
+        - {x: -103, y: -102}
+        - {x: -95, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -43, y: -112}
+        - {x: 19, y: -123}
+    - name: HeroAnimations_Actions_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 106}
+        - {x: -95, y: 106}
+        - {x: -139, y: 91}
+        - {x: -139, y: -121}
+        - {x: -135, y: -122}
+        - {x: -42, y: -122}
+        - {x: -34, y: -105}
+        - {x: 12, y: -1}
+        - {x: 12, y: 49}
+    - name: HeroAnimations_Actions_18
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3, y: 104}
+        - {x: -1, y: 105}
+        - {x: -123, y: 105}
+        - {x: -148, y: 96}
+        - {x: -148, y: -125}
+        - {x: -77, y: -125}
+        - {x: -40, y: -70}
+        - {x: 21, y: 0}
+        - {x: 21, y: 64}
+    - name: HeroAnimations_Actions_19
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: -96}
+        - {x: -54, y: -96}
+        - {x: -38, y: -93}
+        - {x: -33, y: -87}
+        - {x: -34, y: -70}
+        - {x: -39, y: -66}
+        - {x: 40, y: 6}
+        - {x: 40, y: 40}
+        - {x: 1, y: 92}
+        - {x: -84, y: 92}
+        - {x: -141, y: 27}
+        - {x: -148, y: -23}
+        - {x: -148, y: -109}
+        - {x: -145, y: -121}
+        - {x: -128, y: -130}
+        - {x: -99, y: -130}
+        - {x: -89, y: -124}
+        - {x: -65, y: -96}
+        - {x: -63, y: -93}
+    - name: HeroAnimations_Actions_20
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 75}
+        - {x: -109, y: 22}
+        - {x: -139, y: -71}
+        - {x: -139, y: -129}
+        - {x: -9, y: -129}
+        - {x: 57, y: -56}
+        - {x: 57, y: 42}
+        - {x: 24, y: 75}
+    - name: HeroAnimations_Actions_21
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -46}
+        - {x: 76, y: -18}
+        - {x: 44, y: 52}
+        - {x: -71, y: 52}
+        - {x: -150, y: -42}
+        - {x: -150, y: -121}
+        - {x: -148, y: -124}
+        - {x: -62, y: -124}
+        - {x: -50, y: -118}
+        - {x: -43, y: -102}
+        - {x: -44, y: -93}
+        - {x: -48, y: -90}
+        - {x: -47, y: -86}
+        - {x: -42, y: -98}
+        - {x: -38, y: -104}
+        - {x: -18, y: -124}
+        - {x: -6, y: -124}
+        - {x: 9, y: -113}
+        - {x: 6, y: -102}
+        - {x: -5, y: -89}
+        - {x: 18, y: -81}
+    - name: HeroAnimations_Actions_22
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 74, y: -123}
+        - {x: 87, y: -89}
+        - {x: 87, y: 27}
+        - {x: -55, y: 27}
+        - {x: -151, y: -57}
+        - {x: -151, y: -123}
+        - {x: -27, y: -123}
+        - {x: -28, y: -115}
+        - {x: -29, y: -109}
+        - {x: -9, y: -123}
+    - name: HeroAnimations_Actions_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 8}
+        - {x: -55, y: -26}
+        - {x: -56, y: -40}
+        - {x: -53, y: -43}
+        - {x: -76, y: -68}
+        - {x: -81, y: -76}
+        - {x: -95, y: -62}
+        - {x: -142, y: -73}
+        - {x: -151, y: -89}
+        - {x: -151, y: -115}
+        - {x: -131, y: -124}
+        - {x: 61, y: -124}
+        - {x: 92, y: -114}
+        - {x: 92, y: -10}
+        - {x: 57, y: 8}
+    - name: HeroAnimations_Actions_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -73, y: 3}
+        - {x: -151, y: -75}
+        - {x: -151, y: -113}
+        - {x: -145, y: -125}
+        - {x: 81, y: -125}
+        - {x: 92, y: -118}
+        - {x: 92, y: 2}
+        - {x: 86, y: 3}
+    - name: HeroAnimations_Actions_25
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -4}
+        - {x: -151, y: -92}
+        - {x: -151, y: -125}
+        - {x: -147, y: -130}
+        - {x: 90, y: -130}
+        - {x: 90, y: -12}
+        - {x: 77, y: -4}
+      - - {x: -121, y: 126}
+        - {x: -118, y: 126}
+        - {x: -114, y: 127}
+        - {x: -114, y: 130}
+        - {x: -122, y: 130}
+        - {x: -122, y: 128}
+    - name: HeroAnimations_Actions_26
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: -4}
+        - {x: -151, y: -92}
+        - {x: -151, y: -125}
+        - {x: -147, y: -130}
+        - {x: 90, y: -130}
+        - {x: 90, y: -12}
+        - {x: 77, y: -4}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
