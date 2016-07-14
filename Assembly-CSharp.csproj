@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_WEBGL;UNITY_WEBGL_API;UNITY_DISABLE_WEB_VERIFICATION;ENABLE_TEXTUREID_MAP;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_IL2CPP;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -130,6 +130,13 @@
      <Compile Include="Assets\AstarPathfindingProject\Utilities\ProfileHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\Utilities\UnityReferenceHelper.cs" />
      <Compile Include="Assets\AstarPathfindingProject\changelog.cs" />
+     <Compile Include="Assets\LevelLoader.cs" />
+     <Compile Include="Assets\ObjectiveTargetCoins.cs" />
+     <Compile Include="Assets\ObjectiveTargetLives.cs" />
+     <Compile Include="Assets\ObjectiveTargetTime.cs" />
+     <Compile Include="Assets\SaveGameManager.cs" />
+     <Compile Include="Assets\Scripts\AudioEffects\AudioClips.cs" />
+     <Compile Include="Assets\Scripts\AudioEffects\SoundEffects.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\Scripts\Environment\GroundGenerator.cs" />
      <Compile Include="Assets\Scripts\Environment\Hazard.cs" />
@@ -139,27 +146,48 @@
      <Compile Include="Assets\Scripts\GameManagement\EndLevel.cs" />
      <Compile Include="Assets\Scripts\GameManagement\GameManager.cs" />
      <Compile Include="Assets\Scripts\GameManagement\HealthPoints.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\LevelLayout.cs" />
+     <Compile Include="Assets\Scripts\GameManagement\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Scripts\GameManagement\Player.cs" />
      <Compile Include="Assets\Scripts\Habilities\Attack.cs" />
      <Compile Include="Assets\Scripts\Habilities\AttackAbility.cs" />
+     <Compile Include="Assets\Scripts\Habilities\BulletPrefab.cs" />
      <Compile Include="Assets\Scripts\Habilities\GrabObjectCheck.cs" />
      <Compile Include="Assets\Scripts\Habilities\Grabbable.cs" />
+     <Compile Include="Assets\Scripts\Habilities\Loot.cs" />
      <Compile Include="Assets\Scripts\Habilities\PickupCheck.cs" />
+     <Compile Include="Assets\Scripts\Habilities\Shoot.cs" />
+     <Compile Include="Assets\Scripts\Habilities\ShootingAbility.cs" />
      <Compile Include="Assets\Scripts\Habilities\VisionCone.cs" />
      <Compile Include="Assets\Scripts\Input\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Scripts\Input\TouchPadInput.cs" />
+     <Compile Include="Assets\Scripts\Objectives\CameraObjectiveRestrictor.cs" />
+     <Compile Include="Assets\Scripts\Objectives\Objective.cs" />
+     <Compile Include="Assets\Scripts\Objectives\ObjectiveBounds.cs" />
+     <Compile Include="Assets\Scripts\Objectives\ObjectiveChecker.cs" />
+     <Compile Include="Assets\Scripts\Objectives\ObjectiveTrigger.cs" />
+     <Compile Include="Assets\Scripts\Objects\Coin.cs" />
      <Compile Include="Assets\Scripts\Objects\Crate.cs" />
+     <Compile Include="Assets\Scripts\Objects\Door.cs" />
+     <Compile Include="Assets\Scripts\Objects\Fraction.cs" />
      <Compile Include="Assets\Scripts\Objects\Trampoulin.cs" />
      <Compile Include="Assets\Scripts\Platforms\DetectionRay.cs" />
      <Compile Include="Assets\Scripts\Platforms\MovingPlatform.cs" />
      <Compile Include="Assets\Scripts\Platforms\PlatformActivator.cs" />
      <Compile Include="Assets\Scripts\Platforms\PlatformTransform.cs" />
      <Compile Include="Assets\Scripts\Platforms\PlatformWaypoint.cs" />
+     <Compile Include="Assets\Scripts\SlipperySlope.cs" />
+     <Compile Include="Assets\Scripts\UIScripts\BulletUI.cs" />
      <Compile Include="Assets\Scripts\UIScripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\UIScripts\PowerSelectorButton.cs" />
+     <Compile Include="Assets\Scripts\Utilities\DataAccess.cs" />
+     <Compile Include="Assets\Scripts\Utilities\DeadBody.cs" />
      <Compile Include="Assets\Scripts\Utilities\Enumerators.cs" />
+     <Compile Include="Assets\Scripts\Utilities\GameDetails.cs" />
      <Compile Include="Assets\Scripts\Utilities\Hash.cs" />
+     <Compile Include="Assets\Scripts\Utilities\HotZone.cs" />
      <Compile Include="Assets\Scripts\Utilities\Utilities.cs" />
+     <Compile Include="Assets\Scripts\Utilities\timer.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionComponent.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\AssertionException.cs" />
      <Compile Include="Assets\UnityTestTools\Assertions\Assertions.cs" />

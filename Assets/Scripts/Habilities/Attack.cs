@@ -14,7 +14,7 @@ public class Attack : MonoBehaviour{
 
 		//public float attackDuration = 5.0f;
 		public float attackDuration = 0.3f;
-		public float attackDamage = 10.0f;
+		public float attackDamage = 3.0f;
 		public float attackRatio = 0.3f;
 
 		public List<GameObject> objectsCollided;
@@ -118,9 +118,6 @@ public class Attack : MonoBehaviour{
 
 			transform.position = Vector3.Lerp(transform.position, attackDirection, Time.deltaTime);
 
-
-
-
 			if(timeSinceInvoked < attackDuration)
 				timeSinceInvoked += Time.deltaTime;
 			else
@@ -158,7 +155,7 @@ public class Attack : MonoBehaviour{
 					if(e)
 					{
 						Debug.Log(e.gameObject.layer == LayerMask.NameToLayer(Hash.Layers.EnemyBody));
-						e.inflictDamage(attackDamage);
+						e.inflictDamage(attackDamage, attackElement);
 					}
 				}
 			}

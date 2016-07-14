@@ -13,9 +13,7 @@ public class Player : MonoBehaviour {
 	public float damageFactorUP = 5f;
 	public bool isDead;
 
-
 	public GameObject deadBodyPrefab;
-
 
 	[SerializeField] bool receiveDamage;
 	[SerializeField] float timeSinceHit = 0.0f;
@@ -23,7 +21,8 @@ public class Player : MonoBehaviour {
  	HealthPoints characterHealth;
 	UnityStandardAssets._2D.PlatformerCharacter2D character;
 
-
+	SoundEffects soundEffects;
+	AudioSource audioSource;
 
 	void Start()
 	{
@@ -31,12 +30,19 @@ public class Player : MonoBehaviour {
 
 		characterHealth = GetComponentInChildren<HealthPoints>();
 		character = GetComponent<UnityStandardAssets._2D.PlatformerCharacter2D>();
+
+
+		soundEffects = GetComponent<SoundEffects>();
+		audioSource = gameObject.AddComponent<AudioSource>();
+
 	}
 
 	void Update()
 	{
 		HandleDeath();
 		HandleDamage();
+
+		JumpSounds();
 	}
 
 	void HandleDamage()
@@ -78,10 +84,7 @@ public class Player : MonoBehaviour {
 
 			GameManager.AddExplorerCount();
 		}
-
-
-
-
+	
 		if(character.IsDeathAnimationFinished() && triggeredDeath)
 		{
 			isDead = true;
@@ -101,6 +104,54 @@ public class Player : MonoBehaviour {
 			triggeredDeath=false;
 
 			character.ReSpawn();
+
+
+		myRigidBody2D.isKinematic = false;
+	}
+
+	public void CanControl(bool canControl)
+	{
+		character.canMove = canControl;
+		character.StopAnimations();
+
+
+
+	}
+
+	public void Stop()
+	{
+
+		myRigidBody2D.isKinematic = true;
+
+		myRigidBody2D.velocity = Vector2.zero;
+		myRigidBody2D.angularVelocity = 0;
+
+		character.StopAnimations();
+
+	}
+
+
+	public void JumpSounds()
+	{
+
+		if(!audioSource.isPlaying)
+			if(character.hasJumped)
+			{
+				
+				float f = Random.Range(0.0f,1.0f);
+
+				if(f >= 0.0f && f < 0.20f)
+					audioSource.clip = soundEffects.audioClips[0];
+
+				if(f >= 0.20f && f <= 0.40f)
+					audioSource.clip = soundEffects.audioClips[1];
+
+
+				audioSource.transform.position = transform.position;
+				audioSource.Play();
+
+				
+			}
 	}
 	
 }

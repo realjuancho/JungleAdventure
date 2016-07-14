@@ -15,6 +15,23 @@ public class Hash : MonoBehaviour
 		public static string PlatformActivator = "PlatformActivator";
 		public static string EnemyBody = "EnemyBody";
 		public static string DeadBody = "DeadBody";
+		public static string HealthCollider = "HealthCollider";
+		public static string Bullets = "Bullets";
+		public static string PickupCheck = "PickupCheck";
+
+
+
+	}
+	public static class SortingLayers{
+
+
+		public static string CoinSet = "CoinSet";
+		public static string Platforms = "Platforms";
+		public static string Checkpoints = "Checkpoints";
+		public static string Enemies = "Enemies";
+		public static string Characters = "Characters";
+		public static string Bullets = "Bullets";
+
 
 
 	}
@@ -77,6 +94,8 @@ public class Hash : MonoBehaviour
 
 		}
 
+
+
 		public static class PlatformSprites
 		{
 			public static string PlatformActivator_Inactive = "Sprites/Platforms/platform_Activator_0";
@@ -84,9 +103,37 @@ public class Hash : MonoBehaviour
 			
 		}
 
-
+		public static class DiamondsEarnedSprites
+		{
+			public static string noDiamonds = "Sprites/Icons/noDiamonds";
+			public static string _1Diamond = "Sprites/Icons/1Diamond";
+			public static string _2Diamonds = "Sprites/Icons/2Diamonds";
+			public static string _3Diamonds = "Sprites/Icons/3Diamonds";
+			
+		}
 	}
 
+	public static class Prefabs{
+
+			public static class Bullets{
+
+			public static string simpleBullet = "Prefabs/Bullets/simpleBulletPrefab";
+			public static string fireBullet = "Prefabs/Bullets/fireBulletPrefab";
+			public static string iceBullet = "Prefabs/Bullets/iceBulletPrefab";
+			public static string lightningBullet = "Prefabs/Bullets/lightningBulletPrefab";
+			public static string earthBullet = "Prefabs/Bullets/earthBulletPrefab";
+
+			}
+
+
+
+		}
+
+		public static class Loot
+		{
+		public static string Coin = "Prefabs/Loot/CoinLoot";
+			
+		}
 
 	public static class Particles
 	{
@@ -113,6 +160,13 @@ public class Hash : MonoBehaviour
 			public static string PlatformActivator_Activate_Bool = "activated";
 		}
 
+		public static class Character
+		{
+			public static string trigger_Shooting = "Shoot";
+			public static string bool_Aiming = "Aiming";
+
+		}
+
 		public static class Enemies
 		{
 			public static string Walk_Bool = "Walk";
@@ -121,6 +175,14 @@ public class Hash : MonoBehaviour
 
 		}
 
+		public static class Objects
+		{
+			public static class Door {
+				public static string Open_Bool = "OpenDoor";
+
+			}
+
+		}
 	}
 
 

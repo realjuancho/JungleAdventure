@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: f30c356d7c7984c71834197496f01c39
+timeCreated: 1460319949
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: HeroAnimations_Gunplay_0
+    21300002: HeroAnimations_Gunplay_1
+    21300004: HeroAnimations_Gunplay_2
+    21300006: HeroAnimations_Gunplay_3
+    21300008: HeroAnimations_Gunplay_4
+    21300010: HeroAnimations_Gunplay_5
+    21300012: HeroAnimations_Gunplay_6
+    21300014: HeroAnimations_Gunplay_7
+    21300016: HeroAnimations_Gunplay_8
+    21300018: HeroAnimations_Gunplay_9
+    21300020: HeroAnimations_Gunplay_10
+    21300022: HeroAnimations_Gunplay_11
+    21300024: HeroAnimations_Gunplay_12
+    21300026: HeroAnimations_Gunplay_13
+    21300028: HeroAnimations_Gunplay_14
+    21300030: HeroAnimations_Gunplay_15
+    21300032: HeroAnimations_Gunplay_16
+    21300034: HeroAnimations_Gunplay_17
+    21300036: HeroAnimations_Gunplay_18
+    21300038: HeroAnimations_Gunplay_19
+    21300040: HeroAnimations_Gunplay_20
+    21300042: HeroAnimations_Gunplay_21
+    21300044: HeroAnimations_Gunplay_22
+    21300046: HeroAnimations_Gunplay_23
+    21300048: HeroAnimations_Gunplay_24
+    21300050: HeroAnimations_Gunplay_25
+    21300052: HeroAnimations_Gunplay_26
+    21300054: HeroAnimations_Gunplay_27
+    21300056: HeroAnimations_Gunplay_28
+    21300058: HeroAnimations_Gunplay_29
+    21300060: HeroAnimations_Gunplay_30
+    21300062: HeroAnimations_Gunplay_31
+    21300064: HeroAnimations_Gunplay_32
+    21300066: HeroAnimations_Gunplay_33
+    21300068: HeroAnimations_Gunplay_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: HeroAnimations_Gunplay_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 41, y: -123}
+        - {x: 64, y: -105}
+        - {x: 109, y: -43}
+        - {x: 109, y: 76}
+        - {x: 30, y: 118}
+        - {x: -96, y: 118}
+        - {x: -104, y: 93}
+        - {x: -104, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_1
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 39, y: -123}
+        - {x: 41, y: -109}
+        - {x: 34, y: -101}
+        - {x: 12, y: -79}
+        - {x: 19, y: -40}
+        - {x: 17, y: -42}
+        - {x: 37, y: -31}
+        - {x: 107, y: -17}
+        - {x: 109, y: -17}
+        - {x: 109, y: 45}
+        - {x: 14, y: 117}
+        - {x: -83, y: 117}
+        - {x: -104, y: 91}
+        - {x: -104, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_2
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 39, y: -123}
+        - {x: 46, y: -108}
+        - {x: 9, y: -44}
+        - {x: 4, y: -39}
+        - {x: 1, y: -39}
+        - {x: 36, y: -33}
+        - {x: 109, y: -18}
+        - {x: 109, y: -3}
+        - {x: 108, y: 0}
+        - {x: 106, y: 4}
+        - {x: 25, y: 116}
+        - {x: -56, y: 116}
+        - {x: -104, y: 97}
+        - {x: -104, y: -90}
+        - {x: -97, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_3
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 64, y: -123}
+        - {x: 109, y: -26}
+        - {x: 109, y: -2}
+        - {x: 65, y: 116}
+        - {x: -77, y: 116}
+        - {x: -103, y: 108}
+        - {x: -103, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_4
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: -26}
+        - {x: 109, y: 7}
+        - {x: 40, y: 114}
+        - {x: -56, y: 114}
+        - {x: -101, y: 91}
+        - {x: -101, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -123}
+        - {x: 68, y: -123}
+    - name: HeroAnimations_Gunplay_5
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 3576
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40, y: -87}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 39, y: -123}
+        - {x: 46, y: -108}
+        - {x: 110, y: -26}
+        - {x: 110, y: 20}
+        - {x: 12, y: 113}
+        - {x: -62, y: 113}
+        - {x: -100, y: 79}
+        - {x: -100, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -43, y: -112}
+        - {x: -45, y: -105}
+    - name: HeroAnimations_Gunplay_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 110, y: -29}
+        - {x: 110, y: 14}
+        - {x: 69, y: 60}
+        - {x: 10, y: 114}
+        - {x: -44, y: 114}
+        - {x: -59, y: 97}
+        - {x: -96, y: 76}
+        - {x: -101, y: 60}
+        - {x: -101, y: 41}
+        - {x: -81, y: 15}
+        - {x: -71, y: 8}
+        - {x: -74, y: -8}
+        - {x: -78, y: -38}
+        - {x: -94, y: -104}
+        - {x: -96, y: -121}
+        - {x: -94, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -23, y: -123}
+        - {x: 43, y: -123}
+    - name: HeroAnimations_Gunplay_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 109, y: -55}
+        - {x: 109, y: 48}
+        - {x: 43, y: 115}
+        - {x: -55, y: 115}
+        - {x: -101, y: 97}
+        - {x: -101, y: -56}
+        - {x: -98, y: -122}
+        - {x: -94, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -37, y: -123}
+        - {x: 67, y: -123}
+    - name: HeroAnimations_Gunplay_8
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 107, y: 2}
+        - {x: 36, y: 116}
+        - {x: -57, y: 116}
+        - {x: -102, y: 96}
+        - {x: -102, y: -116}
+        - {x: -94, y: -123}
+        - {x: 69, y: -123}
+        - {x: 109, y: -21}
+        - {x: 109, y: 2}
+    - name: HeroAnimations_Gunplay_9
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 3056
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 39, y: -123}
+        - {x: 46, y: -108}
+        - {x: 12, y: -43}
+        - {x: 6, y: -36}
+        - {x: 17, y: -34}
+        - {x: 35, y: -34}
+        - {x: 108, y: -21}
+        - {x: 109, y: -19}
+        - {x: 109, y: 17}
+        - {x: 9, y: 117}
+        - {x: -47, y: 117}
+        - {x: -103, y: 68}
+        - {x: -103, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -25, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 41, y: -123}
+        - {x: 64, y: -105}
+        - {x: 109, y: -43}
+        - {x: 109, y: 76}
+        - {x: 30, y: 118}
+        - {x: -96, y: 118}
+        - {x: -104, y: 93}
+        - {x: -104, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_11
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 62, y: -123}
+        - {x: 102, y: -12}
+        - {x: 102, y: 55}
+        - {x: 9, y: 120}
+        - {x: -62, y: 120}
+        - {x: -65, y: 118}
+        - {x: -113, y: 68}
+        - {x: -113, y: -19}
+        - {x: -96, y: -121}
+        - {x: -94, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_12
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 65, y: -123}
+        - {x: 101, y: 2}
+        - {x: 101, y: 29}
+        - {x: 19, y: 119}
+        - {x: -81, y: 119}
+        - {x: -111, y: 73}
+        - {x: -111, y: -64}
+        - {x: -99, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_13
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 62, y: -123}
+        - {x: 103, y: -4}
+        - {x: 104, y: 0}
+        - {x: 104, y: 16}
+        - {x: 102, y: 21}
+        - {x: 24, y: 95}
+        - {x: -4, y: 119}
+        - {x: -38, y: 119}
+        - {x: -53, y: 114}
+        - {x: -66, y: 101}
+        - {x: -71, y: 87}
+        - {x: -95, y: 74}
+        - {x: -108, y: 64}
+        - {x: -108, y: 45}
+        - {x: -74, y: -43}
+        - {x: -66, y: -41}
+        - {x: -64, y: -40}
+        - {x: -67, y: -46}
+        - {x: -69, y: -52}
+        - {x: -94, y: -104}
+        - {x: -96, y: -121}
+        - {x: -94, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_14
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2536
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -38, y: -76}
+        - {x: -37, y: -79}
+        - {x: -35, y: -81}
+        - {x: -14, y: -121}
+        - {x: -10, y: -123}
+        - {x: 65, y: -123}
+        - {x: 107, y: -23}
+        - {x: 107, y: 51}
+        - {x: 25, y: 117}
+        - {x: 22, y: 118}
+        - {x: -64, y: 118}
+        - {x: -106, y: 77}
+        - {x: -106, y: -101}
+        - {x: -105, y: -123}
+        - {x: -44, y: -123}
+        - {x: -43, y: -121}
+        - {x: -38, y: -78}
+        - {x: -36, y: -73}
+    - name: HeroAnimations_Gunplay_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 110}
+        - {x: -29, y: 100}
+        - {x: -81, y: 83}
+        - {x: -81, y: -127}
+        - {x: 33, y: -127}
+        - {x: 131, y: -58}
+        - {x: 131, y: 5}
+        - {x: 49, y: 110}
+    - name: HeroAnimations_Gunplay_16
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: -101}
+        - {x: -13, y: -104}
+        - {x: 32, y: -122}
+        - {x: 65, y: -102}
+        - {x: 123, y: -27}
+        - {x: 123, y: 25}
+        - {x: 36, y: 111}
+        - {x: -22, y: 111}
+        - {x: -86, y: 60}
+        - {x: -86, y: -90}
+        - {x: -75, y: -128}
+        - {x: -69, y: -129}
+        - {x: -56, y: -129}
+        - {x: -49, y: -116}
+        - {x: -50, y: -106}
+        - {x: -30, y: -79}
+    - name: HeroAnimations_Gunplay_17
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: -42}
+        - {x: 21, y: -35}
+        - {x: 15, y: -35}
+        - {x: 11, y: -33}
+        - {x: 17, y: -35}
+        - {x: 24, y: -35}
+        - {x: 24, y: -37}
+        - {x: 36, y: -38}
+        - {x: 114, y: -20}
+        - {x: 114, y: 8}
+        - {x: 41, y: 104}
+        - {x: 33, y: 108}
+        - {x: -36, y: 108}
+        - {x: -40, y: 107}
+        - {x: -93, y: 62}
+        - {x: -93, y: -108}
+        - {x: 54, y: -108}
+        - {x: 68, y: -64}
+        - {x: 70, y: -58}
+        - {x: 54, y: -45}
+    - name: HeroAnimations_Gunplay_18
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -35}
+        - {x: 16, y: -35}
+        - {x: 9, y: -33}
+        - {x: 15, y: -35}
+        - {x: 23, y: -35}
+        - {x: 24, y: -36}
+        - {x: 34, y: -37}
+        - {x: 40, y: -32}
+        - {x: 82, y: -26}
+        - {x: 114, y: -20}
+        - {x: 114, y: -2}
+        - {x: 112, y: 2}
+        - {x: 39, y: 102}
+        - {x: 20, y: 107}
+        - {x: -47, y: 107}
+        - {x: -91, y: 78}
+        - {x: -91, y: -109}
+        - {x: -19, y: -109}
+        - {x: 78, y: -75}
+        - {x: 71, y: -60}
+        - {x: 54, y: -45}
+    - name: HeroAnimations_Gunplay_19
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 2016
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56, y: -49}
+        - {x: 20, y: -36}
+        - {x: 10, y: -34}
+        - {x: 15, y: -35}
+        - {x: 24, y: -36}
+        - {x: 34, y: -37}
+        - {x: 40, y: -32}
+        - {x: 82, y: -26}
+        - {x: 114, y: -20}
+        - {x: 114, y: 13}
+        - {x: 58, y: 107}
+        - {x: -59, y: 107}
+        - {x: -89, y: 98}
+        - {x: -89, y: -111}
+        - {x: 22, y: -111}
+        - {x: 29, y: -106}
+        - {x: 69, y: -67}
+        - {x: 66, y: -59}
+    - name: HeroAnimations_Gunplay_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45, y: 107}
+        - {x: -72, y: 81}
+        - {x: -87, y: 63}
+        - {x: -87, y: -112}
+        - {x: -46, y: -112}
+        - {x: 83, y: -78}
+        - {x: 114, y: -34}
+        - {x: 114, y: 30}
+        - {x: 33, y: 107}
+    - name: HeroAnimations_Gunplay_21
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -39}
+        - {x: 37, y: -38}
+        - {x: 115, y: -61}
+        - {x: 115, y: 35}
+        - {x: 86, y: 107}
+        - {x: -78, y: 107}
+        - {x: -84, y: 103}
+        - {x: -84, y: -41}
+        - {x: -65, y: -126}
+        - {x: -38, y: -126}
+        - {x: 64, y: -84}
+        - {x: 64, y: -71}
+        - {x: 49, y: -60}
+        - {x: 25, y: -42}
+    - name: HeroAnimations_Gunplay_22
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46, y: -77}
+        - {x: 115, y: -32}
+        - {x: 117, y: -23}
+        - {x: 117, y: 18}
+        - {x: 40, y: 106}
+        - {x: -44, y: 106}
+        - {x: -77, y: 79}
+        - {x: -81, y: 68}
+        - {x: -81, y: -69}
+        - {x: -47, y: -126}
+        - {x: 52, y: -126}
+        - {x: 55, y: -124}
+        - {x: 56, y: -100}
+        - {x: 55, y: -89}
+    - name: HeroAnimations_Gunplay_23
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 107}
+        - {x: -77, y: 71}
+        - {x: -77, y: -75}
+        - {x: -39, y: -123}
+        - {x: 39, y: -123}
+        - {x: 87, y: -98}
+        - {x: 120, y: -39}
+        - {x: 120, y: 11}
+        - {x: 46, y: 107}
+    - name: HeroAnimations_Gunplay_24
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 1496
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 126, y: 81}
+        - {x: 69, y: 109}
+        - {x: -25, y: 109}
+        - {x: -72, y: 97}
+        - {x: -72, y: -129}
+        - {x: -65, y: -130}
+        - {x: 8, y: -130}
+        - {x: 20, y: -110}
+        - {x: 104, y: -75}
+        - {x: 126, y: -37}
+    - name: HeroAnimations_Gunplay_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 125}
+        - {x: -35, y: 125}
+        - {x: -70, y: 110}
+        - {x: -97, y: 77}
+        - {x: -97, y: -35}
+        - {x: -81, y: -125}
+        - {x: 3, y: -125}
+        - {x: 50, y: -35}
+        - {x: 119, y: -7}
+        - {x: 119, y: 18}
+    - name: HeroAnimations_Gunplay_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -127}
+        - {x: 40, y: -119}
+        - {x: 120, y: -10}
+        - {x: 120, y: 28}
+        - {x: 22, y: 125}
+        - {x: -50, y: 125}
+        - {x: -93, y: 74}
+        - {x: -93, y: -111}
+        - {x: -57, y: -127}
+        - {x: -40, y: -127}
+        - {x: -36, y: -111}
+        - {x: -45, y: -102}
+        - {x: 6, y: -127}
+    - name: HeroAnimations_Gunplay_27
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 124}
+        - {x: -46, y: 124}
+        - {x: -56, y: 112}
+        - {x: -101, y: 49}
+        - {x: -101, y: -105}
+        - {x: -71, y: -126}
+        - {x: 5, y: -126}
+        - {x: 72, y: -120}
+        - {x: 122, y: -48}
+        - {x: 122, y: 55}
+        - {x: 43, y: 119}
+    - name: HeroAnimations_Gunplay_28
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: -25}
+        - {x: 122, y: 113}
+        - {x: 92, y: 124}
+        - {x: -102, y: 124}
+        - {x: -102, y: -115}
+        - {x: -74, y: -126}
+        - {x: -66, y: -126}
+        - {x: -57, y: -121}
+        - {x: -55, y: -105}
+        - {x: 32, y: -123}
+        - {x: 36, y: -108}
+    - name: HeroAnimations_Gunplay_29
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 125}
+        - {x: -38, y: 125}
+        - {x: -95, y: 87}
+        - {x: -95, y: -88}
+        - {x: -72, y: -126}
+        - {x: 6, y: -126}
+        - {x: 51, y: -125}
+        - {x: 121, y: -14}
+        - {x: 121, y: 37}
+    - name: HeroAnimations_Gunplay_30
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 976
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84, y: 125}
+        - {x: -97, y: 125}
+        - {x: -97, y: -117}
+        - {x: -77, y: -122}
+        - {x: 16, y: -122}
+        - {x: 22, y: -121}
+        - {x: 119, y: -79}
+        - {x: 119, y: 68}
+    - name: HeroAnimations_Gunplay_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 456
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: -97}
+        - {x: 120, y: -68}
+        - {x: 120, y: 82}
+        - {x: 100, y: 125}
+        - {x: -51, y: 125}
+        - {x: -94, y: 91}
+        - {x: -94, y: 32}
+        - {x: -62, y: -35}
+        - {x: -79, y: -91}
+        - {x: -47, y: -130}
+        - {x: -21, y: -130}
+        - {x: -3, y: -127}
+        - {x: 3, y: -119}
+        - {x: -1, y: -104}
+        - {x: -6, y: -100}
+    - name: HeroAnimations_Gunplay_32
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 456
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: 61}
+        - {x: 87, y: 124}
+        - {x: -67, y: 124}
+        - {x: -91, y: 85}
+        - {x: -91, y: -35}
+        - {x: -69, y: -99}
+        - {x: -27, y: -128}
+        - {x: -22, y: -129}
+        - {x: -3, y: -129}
+        - {x: 3, y: -115}
+        - {x: 0, y: -110}
+        - {x: 122, y: -69}
+    - name: HeroAnimations_Gunplay_33
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 456
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122, y: -18}
+        - {x: 122, y: 7}
+        - {x: 120, y: 9}
+        - {x: 27, y: 124}
+        - {x: -33, y: 124}
+        - {x: -66, y: 111}
+        - {x: -91, y: 72}
+        - {x: -91, y: -49}
+        - {x: -62, y: -124}
+        - {x: 14, y: -124}
+        - {x: 8, y: -102}
+        - {x: -3, y: -96}
+        - {x: 19, y: -64}
+    - name: HeroAnimations_Gunplay_34
+      rect:
+        serializedVersion: 2
+        x: 1812
+        y: 456
+        width: 604
+        height: 520
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54, y: 125}
+        - {x: -94, y: 75}
+        - {x: -94, y: 6}
+        - {x: -64, y: -127}
+        - {x: -5, y: -127}
+        - {x: -2, y: -126}
+        - {x: 120, y: -67}
+        - {x: 120, y: 89}
+        - {x: 101, y: 125}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

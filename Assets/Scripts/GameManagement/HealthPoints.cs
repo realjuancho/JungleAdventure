@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class HealthPoints : MonoBehaviour {
 
 
@@ -45,33 +46,55 @@ public class HealthPoints : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D col)
 	{	
 		CheckForHazard(col.gameObject);
+
 	}
 	void OnTriggerStay2D(Collider2D col)
 	{	
 		CheckForHazard(col.gameObject);
 	}
 
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if(gameObject.GetComponent<Crate>())
+		{
+			BulletPrefab bullet = col.collider.GetComponent<BulletPrefab>();
+			if(bullet)
+				GetDamage(maxHealthValue /3.0f);
+
+		}
+
+	}
 
 	void CheckForHazard(GameObject col)
 	{
 		Hazard hazard = col.GetComponent<Hazard>();
+
 		if(hazard)
 		{
-			if(!hazard._1HitKill)
+			if(hazard.enabled)
 			{
-				if(!isInvincible)
+				if(!hazard._1HitKill)
 				{
-					GetDamage(hazard.damage);
-					isInvincible = true;
-					timeSinceInvincible = 0.0f;
+					if(!isInvincible)
+					{
+						GetDamage(hazard.damage);
+						isInvincible = true;
+						timeSinceInvincible = 0.0f;
+					}
+				}
+				else
+				{
+					GetDamage(maxHealthValue);
 				}
 			}
-			else
-			{
-				GetDamage(maxHealthValue);
-			}
 		}
+
+
+
 	}
+
+
+
 
 	void CheckInvincibility()
 	{

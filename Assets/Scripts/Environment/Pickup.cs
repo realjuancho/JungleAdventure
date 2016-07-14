@@ -6,9 +6,10 @@ public class Pickup : MonoBehaviour {
 
 	public enum PickupElement { Fire, Ice, Lightning, Earth, Money }
 	public PickupElement pickupElement;
+	public Objective myObjective;
+
 
 	public float pickupElementValue = 1.0f;
-
 
 	AudioSource audioSource;
 
@@ -16,6 +17,7 @@ public class Pickup : MonoBehaviour {
 	void Start () {
 
 		audioSource = GetComponent<AudioSource>();
+		myObjective = GetComponentInParent<Objective>();
 		
 	}
 	
@@ -28,11 +30,35 @@ public class Pickup : MonoBehaviour {
 	{
 		if(col.gameObject.GetComponent<PickupCheck>())
 		{
+			//Debug.Log("Player");
+
+			AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
+
+			Destroy(gameObject);
+
+			if(myObjective)
+			{
+				myObjective.ObjectiveCompleted = true;
+			}
+		}
+
+
+	}
+
+	void OnCollisionEnter2D(Collision2D col)
+	{
+		if(col.collider.gameObject.GetComponent<PickupCheck>())
+		{
 			Debug.Log("Player");
 
 			AudioSource.PlayClipAtPoint(audioSource.clip, transform.position);
 
 			Destroy(gameObject);
+
+			if(myObjective)
+			{
+				myObjective.ObjectiveCompleted = true;
+			}
 		}
 
 

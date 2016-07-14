@@ -1,27 +1,46 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement;
+using System.Collections.Generic;
+
 
 public class EndLevel : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
+	public int levelToUnlock;
+
+	public int unlockedDiamonds;
+
+	public ObjectiveChecker endLevelObjectiveChecker;
+
+	void Start()
+	{
+		endLevelObjectiveChecker = gameObject.GetComponentInChildren<ObjectiveChecker>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 
 	void OnTriggerEnter2D(Collider2D col)
 	{
 		Player player = col.gameObject.GetComponent<Player>();
 		if(player)
 		{
+			GameManager.ReachEndLevel(levelToUnlock, unlockedDiamonds);
 
-			SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			CheckLevelObjectives();
 		}
+	}
 
+	void CheckLevelObjectives()
+	{
+		
+
+		List<Objective> objectiveArray = endLevelObjectiveChecker.objectivesToCheck;
+
+		unlockedDiamonds = 0;
+		foreach(Objective objective in objectiveArray)
+		{
+			objective.CheckTargets(GameManager.getMoney(), GameManager.getExplorersUsed(), GameManager.getTimeUsed());
+			
+			if(objective.ObjectiveCompleted)
+				unlockedDiamonds++;
+		}
 	}
 }

@@ -8,8 +8,6 @@ namespace UnityStandardAssets._2D
     public class Platformer2DUserControl : MonoBehaviour
     {
 
-    	public float testFloat;
-
         private PlatformerCharacter2D m_Character;
         private bool m_Jump;
 
@@ -41,17 +39,20 @@ namespace UnityStandardAssets._2D
             //float h = CrossPlatformInputManager.GetAxis("Horizontal");
 			//float h = CrossPlatformInputManager.GetAxis("LStick_LeftRight");
 
+			//If Keyboard
+			float h = 0;
 
-			float h = Input.GetAxis(Hash.Axis.LStick_LeftRight);
-            // Pass all parameters to the character control script.
+			if(Input.GetKey(KeyCode.A)) h = -1;
+			if(Input.GetKey(KeyCode.D)) h = 1;
 
- 
-
-			//If DS4
 			m_Character.Move(h, crouch, m_Jump);
 
-			//If Android
-//			bool crouch_touch = (TouchPadInput.MovementAxis_Vertical < -1.0f);
+			//If DS4
+//			float h = Input.GetAxis(Hash.Axis.LStick_LeftRight);
+//			m_Character.Move(h, crouch, m_Jump);
+
+//			If Android
+			//bool crouch_touch = (TouchPadInput.MovementAxis_Vertical < -1.0f);
 //			float h_touch = 0;
 //
 //			if(TouchPadInput.MovementAxis_Horizontal != 0.0f)

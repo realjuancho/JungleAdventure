@@ -29,7 +29,6 @@ public class AttackAbility : MonoBehaviour {
 
 	void Start()
 	{
-
 		character = GetComponentInParent<UnityStandardAssets._2D.PlatformerCharacter2D>();
 	}
 
@@ -195,11 +194,57 @@ public class AttackAbility : MonoBehaviour {
 	 	myPadDirection = PadDirection.idle;
 
 	 	#region Dualshock4
-	 	if(!selectionFrame)
-		if(Input.GetAxis(Hash.Axis.DPad_UpDown) < 0) {myPadDirection = PadDirection.up;  selectionFrame = true; }
-		else if(Input.GetAxis(Hash.Axis.DPad_UpDown) > 0) {myPadDirection = PadDirection.down;  selectionFrame = true; }
-		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) < 0) {myPadDirection = PadDirection.left;  selectionFrame = true; }
-		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) > 0) {myPadDirection = PadDirection.right;  selectionFrame = true; }
+//	 	if(!selectionFrame)
+//		if(Input.GetAxis(Hash.Axis.DPad_UpDown) < 0) {myPadDirection = PadDirection.up;  selectionFrame = true; }
+//		else if(Input.GetAxis(Hash.Axis.DPad_UpDown) > 0) {myPadDirection = PadDirection.down;  selectionFrame = true; }
+//		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) < 0) {myPadDirection = PadDirection.left;  selectionFrame = true; }
+//		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) > 0) {myPadDirection = PadDirection.right;  selectionFrame = true; }
+//
+//
+//		if(selectionFrame)
+//		{
+//			switch(selectedElement)
+//			{
+//				case Attack.AttackElement.Brutal:
+//					if(myPadDirection == PadDirection.up && lightningAttackEnabled) selectedElement = Attack.AttackElement.Lightning;
+//					else if(myPadDirection == PadDirection.down && earthAttackEnabled) selectedElement = Attack.AttackElement.Earth;
+//					else if(myPadDirection == PadDirection.left && iceAttackEnabled) selectedElement = Attack.AttackElement.Ice;
+//					else if(myPadDirection == PadDirection.right && fireAttackEnabled) selectedElement = Attack.AttackElement.Fire;
+//				break;
+//				case Attack.AttackElement.Earth:
+//					if(myPadDirection == PadDirection.up) selectedElement = Attack.AttackElement.Brutal;
+//					else if(myPadDirection == PadDirection.right && fireAttackEnabled) selectedElement = Attack.AttackElement.Fire;
+//					else if(myPadDirection == PadDirection.left && fireAttackEnabled) selectedElement = Attack.AttackElement.Ice;
+//				break;
+//				case Attack.AttackElement.Fire:
+//					if(myPadDirection == PadDirection.left) selectedElement = Attack.AttackElement.Brutal;
+//					else if(myPadDirection == PadDirection.up && lightningAttackEnabled) selectedElement = Attack.AttackElement.Lightning;
+//					else if(myPadDirection == PadDirection.down && earthAttackEnabled) selectedElement = Attack.AttackElement.Earth;
+//				break;
+//				case Attack.AttackElement.Ice:
+//					if(myPadDirection == PadDirection.right) selectedElement = Attack.AttackElement.Brutal;
+//					else if(myPadDirection == PadDirection.up && lightningAttackEnabled) selectedElement = Attack.AttackElement.Lightning;
+//					else if(myPadDirection == PadDirection.down && earthAttackEnabled) selectedElement = Attack.AttackElement.Earth;
+//				break;
+//				case Attack.AttackElement.Lightning:
+//				if(myPadDirection == PadDirection.down) selectedElement = Attack.AttackElement.Brutal;
+//					else if(myPadDirection == PadDirection.left && iceAttackEnabled) selectedElement = Attack.AttackElement.Ice;
+//					else if(myPadDirection == PadDirection.right && fireAttackEnabled) selectedElement = Attack.AttackElement.Fire;
+//				break;
+//
+//			}
+//		}
+//		if(Input.GetAxis(Hash.Axis.DPad_LeftRight) != 0 ||  (Input.GetAxis(Hash.Axis.DPad_UpDown) != 0)) selectionFrame = true;
+//		else selectionFrame = false;
+		#endregion 
+
+		#region Keyboard
+
+		if(!selectionFrame)
+		if(Input.GetKeyDown(KeyCode.UpArrow)) {myPadDirection = PadDirection.up;  selectionFrame = true; }
+		else if(Input.GetKeyDown(KeyCode.DownArrow)) {myPadDirection = PadDirection.down;  selectionFrame = true; }
+		else if(Input.GetKeyDown(KeyCode.LeftArrow)) {myPadDirection = PadDirection.left;  selectionFrame = true; }
+		else if(Input.GetKeyDown(KeyCode.RightArrow)) {myPadDirection = PadDirection.right;  selectionFrame = true; }
 
 
 		if(selectionFrame)
@@ -235,9 +280,11 @@ public class AttackAbility : MonoBehaviour {
 
 			}
 		}
-		if(Input.GetAxis(Hash.Axis.DPad_LeftRight) != 0 ||  (Input.GetAxis(Hash.Axis.DPad_UpDown) != 0)) selectionFrame = true;
+		if(Input.GetKeyDown(KeyCode.UpArrow) ||Input.GetKeyDown(KeyCode.DownArrow) || 
+			Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.RightArrow)) selectionFrame = true;
 		else selectionFrame = false;
-		#endregion 
+
+		#endregion
 
 		#region Touch Controls
 //		if(TouchPadInput.Button1) { Debug.Log("Lightning");
@@ -270,11 +317,11 @@ public class AttackAbility : MonoBehaviour {
 	{
 		bool attackFrame = false;
 		if (!attackDisabled) {
-			if (Input.GetButtonDown (Hash.Buttons.Square) || TouchPadInput.Button6) {
+			if (Input.GetButtonDown (Hash.Buttons.Square) || TouchPadInput.Button6 || Input.GetKeyDown(KeyCode.K)) {
 				ForwardAttack ();
 				attackFrame = true;
 			}
-			if (Input.GetButtonDown (Hash.Buttons.Triangle) || TouchPadInput.Button7) {
+			if (Input.GetButtonDown (Hash.Buttons.Triangle) || TouchPadInput.Button7 || Input.GetKeyDown(KeyCode.O)) {
 				UpwardAttack ();
 				attackFrame = true;
 			}
