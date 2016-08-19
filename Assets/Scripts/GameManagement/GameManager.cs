@@ -31,8 +31,20 @@ public class GameManager : MonoBehaviour
 	Canvas endLevelCanvas;
 	Canvas touchCanvas;
 
+
+	Canvas pauseCanvas;
+	Slider sldMusicVolume;
+	Slider sldEffectsVolume;
+
+	AudioSource musicSource;
+	SaveGameManager sgm;
+
+
+
+
 	void Awake()
 	{
+		
 		player = GameObject.FindObjectOfType<Player>();
 		shootingAbility = player.GetComponentInChildren<ShootingAbility>();
 
@@ -47,10 +59,29 @@ public class GameManager : MonoBehaviour
 		touchCanvas = GameObject.Find("TouchCanvas").GetComponent<Canvas>();
 		endLevelCanvas = GameObject.Find("EndLevelCanvas").GetComponent<Canvas>();
 
+		pauseCanvas = GameObject.Find("PauseCanvas").GetComponent<Canvas>();
+
+
+		sldMusicVolume = pauseCanvas.gameObject.transform.Find("pnlSettings").Find("sliderMusicV").GetComponent<Slider>();
+		sldEffectsVolume = pauseCanvas.gameObject.transform.Find("pnlSettings").Find("sliderEffectsV").GetComponent<Slider>();
+
+
+
 		lblObjective = GameObject.Find("lblObjectives").GetComponent<Text>();
 
 		imageDiamonds = GameObject.Find("imgDiamonds").GetComponent<Image>();
+
+		sgm = GetComponentInChildren<SaveGameManager>();
+		musicSource = GetComponentInChildren<AudioSource>();
+
+		sldMusicVolume.value = sgm.gs.musicVolume;
+		sldEffectsVolume.value = sgm.gs.effectsVolume;
+
+
 	}
+
+
+
 
 	void Update()
 	{
@@ -66,6 +97,14 @@ public class GameManager : MonoBehaviour
 			endLevelCanvas.enabled = false;	
 		}
 
+		if(isPaused)
+		{
+			pauseCanvas.enabled = true;
+		}
+		else
+		{
+			pauseCanvas.enabled = false;
+		}
 
 
 		txtMoney.text = money.ToString();
@@ -85,6 +124,7 @@ public class GameManager : MonoBehaviour
 
 		bulletsLeft = shootingAbility.bulletsLeft;
 
+		ManageSettings ();
 	}
 
 	public void LastCheckPoint(CheckPoint checkPointPassed)
@@ -203,6 +243,8 @@ public class GameManager : MonoBehaviour
 		}
 		else{
 			Time.timeScale = 1;
+
+			sgm.SaveSettings();
 		}
 
 	}
@@ -238,4 +280,19 @@ public class GameManager : MonoBehaviour
 	}
 
 
+	void ManageSettings ()
+	{
+		sgm.gs.musicVolume = sldMusicVolume.value;
+		sgm.gs.effectsVolume = sldEffectsVolume.value;
+		
+
+		musicSource.volume = sgm.gs.musicVolume;
+
+
+	}
+
+	public void LoadScene(string SceneName)
+	{
+		SceneManager.LoadScene(SceneName);
+	}
 }

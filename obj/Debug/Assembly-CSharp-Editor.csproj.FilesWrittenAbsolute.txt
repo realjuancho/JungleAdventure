@@ -72,3 +72,4 @@
 /Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEditor.WebGL.Extensions.dll
 /Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEditor.iOS.Extensions.Xcode.dll
 /Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEditor.iOS.Extensions.Common.dll
+/Users/JuanCerda/Documents/Mis Proyectos/JC.Arne/Temp/bin/Debug/UnityEditor.WindowsStandalone.Extensions.dll

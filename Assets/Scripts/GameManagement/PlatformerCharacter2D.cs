@@ -5,7 +5,8 @@ namespace UnityStandardAssets._2D
 {
     public class PlatformerCharacter2D : MonoBehaviour
     {
-        [SerializeField] private float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
+        [SerializeField] private float m_MaxSpeed = 10f; 
+		[SerializeField] private float m_climbSpeed = 100f;                    // The fastest the player can travel in the x axis.
         [SerializeField] public float m_JumpForce = 400f;                  // Amount of force added when the player jumps.
         [Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
         [SerializeField] private bool m_AirControl = false;                 // Whether or not a player can steer while jumping;
@@ -119,6 +120,31 @@ namespace UnityStandardAssets._2D
             }
         }
 
+        public void MoveUD(Vector2 direction)
+        {
+        	if(canMove)
+        	{
+				m_Rigidbody2D.velocity =direction * m_climbSpeed * Time.deltaTime;
+
+				if(direction != Vector2.zero)
+	        	{
+	        		if(m_Anim.GetFloat(Hash.Animations.Character.float_Climbing) == 0)
+	        		{
+	        			m_Anim.SetFloat(Hash.Animations.Character.float_Climbing, 1.0f);
+	        		}
+	        	}
+        	}
+        }
+
+
+        public void MoveUD(bool exit)
+        {
+        	if(exit)
+        	{
+        		m_Anim.SetFloat(Hash.Animations.Character.float_Climbing,0.0f);
+        	}
+        }
+
       	public void Melee()
       	{
       		m_Anim.SetTrigger("Melee");
@@ -142,6 +168,8 @@ namespace UnityStandardAssets._2D
       		m_Rigidbody2D.velocity = Vector2.zero;
       		m_Rigidbody2D.angularVelocity = 0.0f;
       	}
+
+
 
       	bool _isDeathAnimationFinished;
 		public void setDeathAnimationFinished()
@@ -192,6 +220,28 @@ namespace UnityStandardAssets._2D
        {
        		m_Anim.Play("Idle");
        }
+
+
+		public void Climb(bool isClimbing, bool withinClimbArea)
+      	{
+//			if(withinClimbArea)
+//      		{
+//      			if(isClimbing)
+//      			{
+//
+//					float f = m_Anim.GetFloat(Hash.Animations.Character.float_Climbing);
+//					Debug.Log(f);
+//					if(f == 0)
+//					{
+//						m_Anim.SetFloat(Hash.Animations.Character.float_Climbing, 0.02f);
+//		      		}
+//      			}
+//      		}
+
+
+
+      	}
+
 
     }
 }

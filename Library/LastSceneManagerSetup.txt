@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/basicScene.unity
+- path: Assets/_Scenes/Alpha/scene_Caves.unity
   isLoaded: 1
   isActive: 1

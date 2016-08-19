@@ -40,16 +40,16 @@ namespace UnityStandardAssets._2D
 			//float h = CrossPlatformInputManager.GetAxis("LStick_LeftRight");
 
 			//If Keyboard
-			float h = 0;
-
-			if(Input.GetKey(KeyCode.A)) h = -1;
-			if(Input.GetKey(KeyCode.D)) h = 1;
-
-			m_Character.Move(h, crouch, m_Jump);
+//			float h = 0;
+//
+//			if(Input.GetKey(KeyCode.A)) h = -1;
+//			if(Input.GetKey(KeyCode.D)) h = 1;
+//
+//			m_Character.Move(h, crouch, m_Jump);
 
 			//If DS4
-//			float h = Input.GetAxis(Hash.Axis.LStick_LeftRight);
-//			m_Character.Move(h, crouch, m_Jump);
+			float h = Input.GetAxis(Hash.Axis.LStick_LeftRight);
+			m_Character.Move(h, crouch, m_Jump);
 
 //			If Android
 			//bool crouch_touch = (TouchPadInput.MovementAxis_Vertical < -1.0f);
@@ -61,8 +61,8 @@ namespace UnityStandardAssets._2D
 //				else h_touch = -1;
 //			}
 //			m_Character.Move(h_touch, false, m_Jump);
-
-
+//
+//
 			m_Jump = false;
         }
     }

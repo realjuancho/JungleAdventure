@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour {
 
 	Player myPlayer;
 	PolygonCollider2D enemyBodyCollider;
+	Rigidbody2D rb2D;
 	SpriteRenderer sr;
 
     [SerializeField] bool turn;
@@ -23,16 +24,20 @@ public class Enemy : MonoBehaviour {
 
 	void Start()
 	{
-		
+		rb2D = GetComponent<Rigidbody2D>();	
 		animator = GetComponent<Animator>();	
+
 		visionCone = GetComponentInChildren<VisionCone>();
+
 		myPlayer = GameObject.FindObjectOfType<Player>();
 		enemyBodyCollider =  gameObject.GetComponent<PolygonCollider2D>();
 
 		hazard = transform.FindChild("AttackRange").gameObject.GetComponent<Hazard>();
 		hazard.enabled = false;
 
-		sr = transform.FindChild("DimetrodonBody").gameObject.GetComponent<SpriteRenderer>();
+		sr = transform.FindChild("Body").gameObject.GetComponent<SpriteRenderer>();
+
+
 		originalColor = sr.color;
 	}
 
@@ -84,7 +89,7 @@ public class Enemy : MonoBehaviour {
 		if(damaged)
 		{
 
-			timeSinceDamage += Time.deltaTime;
+			timeSinceDamage += Time.fixedDeltaTime;
 
 			if(timeSinceDamage < 0.2f)
 			{
@@ -130,11 +135,11 @@ public class Enemy : MonoBehaviour {
 
 	void DefeatEnemy()
 	{
-		animator.SetTrigger(Hash.Animations.Enemies.Die_Trigger);
+		
 
 		ManageEnemyTypeDeath();
 
-
+		animator.SetTrigger(Hash.Animations.Enemies.Die_Trigger);
 	}
 
 	void Attack()
@@ -168,9 +173,12 @@ public class Enemy : MonoBehaviour {
 
 	void EnemyBehaviour()
 	{
-		if(visionCone.GameObjectWithinVision.Contains(myPlayer.gameObject))
+		if(visionCone.GameObjectWithinVision.Count>0)
 		{
-			attack = true;
+			if(visionCone.GameObjectWithinVision.Contains(myPlayer.gameObject))
+			{
+				attack = true;
+			}
 		}
 
 		if(attack)
@@ -210,8 +218,12 @@ public class Enemy : MonoBehaviour {
 				enemyBodyCollider.isTrigger = false;
 				break;
 
+			
 
 		}
+
+
+		Destroy(rb2D);
 
 	}
 

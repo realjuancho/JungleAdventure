@@ -63,25 +63,27 @@ public class TouchPadInput : MonoBehaviour {
 		}
 
 
-
-		if(originPoint.activeInHierarchy && finalPoint.activeInHierarchy)
+		if(originPoint)
 		{
-			Vector3 offset =  finalPoint.transform.position -originPoint.transform.position;
+			if(originPoint.activeInHierarchy && finalPoint.activeInHierarchy)
+			{
+				Vector3 offset =  finalPoint.transform.position -originPoint.transform.position;
 
-			float distance = offset.magnitude;
+				float distance = offset.magnitude;
 
-			Vector3 direction = offset / distance;
+				Vector3 direction = offset / distance;
 
-			float x = direction.x;
-			float y = direction.y;
+				float x = direction.x;
+				float y = direction.y;
 
-			MovementAxis_Horizontal = x;
-			MovementAxis_Vertical = y;
-		}
-		else
-		{
-			MovementAxis_Horizontal = 0.0f;
-			MovementAxis_Vertical = 0.0f;
+				MovementAxis_Horizontal = x;
+				MovementAxis_Vertical = y;
+			}
+			else
+			{
+				MovementAxis_Horizontal = 0.0f;
+				MovementAxis_Vertical = 0.0f;
+			}
 		}
 		#endregion
 
@@ -100,8 +102,14 @@ public class TouchPadInput : MonoBehaviour {
 		}
 		else if(!Activate)
 		{
-			originPoint.SetActive(false);
-			finalPoint.SetActive(false);
+			if(originPoint)
+			{
+				originPoint.SetActive(false);
+			}
+			if(finalPoint)
+			{
+				finalPoint.SetActive(false);
+			}
 		}
 	}
 

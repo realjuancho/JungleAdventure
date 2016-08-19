@@ -25,7 +25,7 @@ public class ShootingAbility : MonoBehaviour {
 	int fireCount;
 	bool attackDisabled = false;
 	GameObject shootDirection;
-
+	Muzzle muzzleEffect;
 
 	SoundEffects soundEffects;
 
@@ -40,6 +40,8 @@ public class ShootingAbility : MonoBehaviour {
 		soundEffects = GetComponent<SoundEffects>();
 
 		shootDirection = transform.FindChild("ShootingDirection").gameObject;
+
+		muzzleEffect = GetComponent<Muzzle>();
 
 	}
 
@@ -67,52 +69,52 @@ public class ShootingAbility : MonoBehaviour {
 	 	myPadDirection = PadDirection.idle;
 
 	 	#region Dualshock4
-//	 	if(!selectionFrame)
-//		if(Input.GetAxis(Hash.Axis.DPad_UpDown) < 0) {myPadDirection = PadDirection.up;  selectionFrame = true; }
-//		else if(Input.GetAxis(Hash.Axis.DPad_UpDown) > 0) {myPadDirection = PadDirection.down;  selectionFrame = true; }
-//		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) < 0) {myPadDirection = PadDirection.left;  selectionFrame = true; }
-//		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) > 0) {myPadDirection = PadDirection.right;  selectionFrame = true; }
-//
-//
-//		if(selectionFrame)
-//		{
-//			switch(selectedElement)
-//			{
-//				case global::Shoot.ShootElement.Simple:
-//					if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
-//					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
-//					else if(myPadDirection == PadDirection.left && iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
-//					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
-//				break;
-//				case global::Shoot.ShootElement.Earth:
-//					if(myPadDirection == PadDirection.up) selectedElement =global::Shoot.ShootElement.Simple;
-//					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
-//					else if(myPadDirection == PadDirection.left && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
-//				break;
-//				case global::Shoot.ShootElement.Fire:
-//					if(myPadDirection == PadDirection.left) selectedElement =global::Shoot.ShootElement.Simple;
-//					else if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
-//					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
-//				break;
-//				case global::Shoot.ShootElement.Ice:
-//					if(myPadDirection == PadDirection.right) selectedElement =global::Shoot.ShootElement.Simple;
-//					else if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
-//					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
-//				break;
-//				case global::Shoot.ShootElement.Lightning:
-//				if(myPadDirection == PadDirection.down) selectedElement =global::Shoot.ShootElement.Simple;
-//					else if(myPadDirection == PadDirection.left && iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
-//					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
-//				break;
-//
-//			}
-//		}
-//		if(Input.GetAxis(Hash.Axis.DPad_LeftRight) != 0 ||  (Input.GetAxis(Hash.Axis.DPad_UpDown) != 0)) selectionFrame = true;
-//		else selectionFrame = false;
+	 	if(!selectionFrame)
+		if(Input.GetAxis(Hash.Axis.DPad_UpDown) < 0) {myPadDirection = PadDirection.up;  selectionFrame = true; }
+		else if(Input.GetAxis(Hash.Axis.DPad_UpDown) > 0) {myPadDirection = PadDirection.down;  selectionFrame = true; }
+		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) < 0) {myPadDirection = PadDirection.left;  selectionFrame = true; }
+		else if(Input.GetAxis(Hash.Axis.DPad_LeftRight) > 0) {myPadDirection = PadDirection.right;  selectionFrame = true; }
+
+
+		if(selectionFrame)
+		{
+			switch(selectedElement)
+			{
+				case global::Shoot.ShootElement.Simple:
+					if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
+					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
+					else if(myPadDirection == PadDirection.left && iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
+					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
+				break;
+				case global::Shoot.ShootElement.Earth:
+					if(myPadDirection == PadDirection.up) selectedElement =global::Shoot.ShootElement.Simple;
+					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
+					else if(myPadDirection == PadDirection.left && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
+				break;
+				case global::Shoot.ShootElement.Fire:
+					if(myPadDirection == PadDirection.left) selectedElement =global::Shoot.ShootElement.Simple;
+					else if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
+					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
+				break;
+				case global::Shoot.ShootElement.Ice:
+					if(myPadDirection == PadDirection.right) selectedElement =global::Shoot.ShootElement.Simple;
+					else if(myPadDirection == PadDirection.up && lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning;
+					else if(myPadDirection == PadDirection.down && earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth;
+				break;
+				case global::Shoot.ShootElement.Lightning:
+				if(myPadDirection == PadDirection.down) selectedElement =global::Shoot.ShootElement.Simple;
+					else if(myPadDirection == PadDirection.left && iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice;
+					else if(myPadDirection == PadDirection.right && fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire;
+				break;
+
+			}
+		}
+		if(Input.GetAxis(Hash.Axis.DPad_LeftRight) != 0 ||  (Input.GetAxis(Hash.Axis.DPad_UpDown) != 0)) selectionFrame = true;
+		else selectionFrame = false;
 		#endregion 
 
 		#region Keyboard
-
+//
 //		if(!selectionFrame)
 //		if(Input.GetKeyDown(KeyCode.UpArrow)) {myPadDirection = PadDirection.up;  selectionFrame = true; }
 //		else if(Input.GetKeyDown(KeyCode.DownArrow)) {myPadDirection = PadDirection.down;  selectionFrame = true; }
@@ -160,25 +162,25 @@ public class ShootingAbility : MonoBehaviour {
 		#endregion
 
 		#region Touch Controls
-		if(TouchPadInput.Button1) { Debug.Log("Lightning");
-			if(lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning; 
-			else selectedElement =global::Shoot.ShootElement.Simple;
-		  }
-		else if(TouchPadInput.Button2) { Debug.Log("Earth");
-			if(earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth; 
-			else selectedElement =global::Shoot.ShootElement.Simple;
-		  }
-		else if(TouchPadInput.Button3) { Debug.Log("Ice");
-			if(iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice; 
-			else selectedElement =global::Shoot.ShootElement.Simple;
-		  }
-		else if(TouchPadInput.Button4) {  Debug.Log("Fire");
-			if(fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire; 
-			else selectedElement = global::Shoot.ShootElement.Simple;
-		  }
-		else if(TouchPadInput.Button5) {  Debug.Log("Brutal");
-			selectedElement =global::Shoot.ShootElement.Simple;
-		  }
+//		if(TouchPadInput.Button1) { Debug.Log("Lightning");
+//			if(lightningShotEnabled) selectedElement = global::Shoot.ShootElement.Lightning; 
+//			else selectedElement =global::Shoot.ShootElement.Simple;
+//		  }
+//		else if(TouchPadInput.Button2) { Debug.Log("Earth");
+//			if(earthShotEnabled) selectedElement = global::Shoot.ShootElement.Earth; 
+//			else selectedElement =global::Shoot.ShootElement.Simple;
+//		  }
+//		else if(TouchPadInput.Button3) { Debug.Log("Ice");
+//			if(iceShotEnabled) selectedElement = global::Shoot.ShootElement.Ice; 
+//			else selectedElement =global::Shoot.ShootElement.Simple;
+//		  }
+//		else if(TouchPadInput.Button4) {  Debug.Log("Fire");
+//			if(fireShotEnabled) selectedElement = global::Shoot.ShootElement.Fire; 
+//			else selectedElement = global::Shoot.ShootElement.Simple;
+//		  }
+//		else if(TouchPadInput.Button5) {  Debug.Log("Brutal");
+//			selectedElement =global::Shoot.ShootElement.Simple;
+//		  }
 
 
 		#endregion
@@ -246,6 +248,8 @@ public class ShootingAbility : MonoBehaviour {
 
 
 		AudioSource.PlayClipAtPoint(soundEffects.audioClips[0], transform.position);
+
+		muzzleEffect.DisplayMuzzleAt(0, character.isFacingRight);
 	}
 
 	void Melee ()

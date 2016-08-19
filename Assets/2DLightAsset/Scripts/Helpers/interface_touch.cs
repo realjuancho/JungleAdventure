@@ -37,6 +37,7 @@ public class interface_touch: MonoBehaviour {
 
 			if(Input.GetKey(KeyCode.LeftControl) == true){
 				return; //************************************************************************************
+				}
 				Material m = new Material( cLight.GetComponent<DynamicLight>().lightMaterial as Material); 
 				
 
@@ -67,4 +68,4 @@ public class interface_touch: MonoBehaviour {
 
 
 
-}
+

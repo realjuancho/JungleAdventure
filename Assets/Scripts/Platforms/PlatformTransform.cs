@@ -14,7 +14,7 @@ public class PlatformTransform : MonoBehaviour {
 	{
 		if(col.gameObject.GetComponent<Player>())
 		{
-			Debug.Log("Player ON");
+//			Debug.Log("Player ON");
 			col.gameObject.transform.SetParent(gameObject.transform);
 		}	
 	}
@@ -23,7 +23,7 @@ public class PlatformTransform : MonoBehaviour {
 	{
 		if(col.gameObject.GetComponent<Player>())
 		{
-			Debug.Log("Player ON");
+			//Debug.Log("Player ON");
 			col.gameObject.transform.SetParent(gameObject.transform);
 		}	
 	}
@@ -33,7 +33,7 @@ public class PlatformTransform : MonoBehaviour {
 	{
 		if(col.gameObject.GetComponent<Player>())
 		{
-			Debug.Log("Player OFF");
+			//Debug.Log("Player OFF");
 			col.gameObject.transform.SetParent(null);
 		}
 	}

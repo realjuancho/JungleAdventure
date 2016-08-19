@@ -65,3 +65,32 @@ public class GameDetails
 
 
 }
+
+[Serializable]
+public class GameSettings
+{
+    public float effectsVolume;
+    public float musicVolume;
+   
+    
+    public GameSettings()
+    {
+        
+    }
+
+    public GameSettings(bool newGame)
+    {
+
+    	if(newGame)
+    	{
+    		effectsVolume = 0.3f;
+    		musicVolume = 1.0f;
+
+    	
+    	}
+
+
+    }
+
+
+}

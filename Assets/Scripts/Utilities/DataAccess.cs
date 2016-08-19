@@ -45,6 +45,38 @@ public class DataAccess
         }
     }
 
+	public static void Save(GameSettings gameDetails)
+    {
+        string dataPath = string.Format("{0}/GameSettings.dat", Application.persistentDataPath);
+        BinaryFormatter binaryFormatter = new BinaryFormatter();
+        FileStream fileStream;
+
+        try
+        {
+            if (File.Exists(dataPath))
+            {
+                File.WriteAllText(dataPath, string.Empty);
+                fileStream = File.Open(dataPath, FileMode.Open);
+            }
+            else
+            {
+                fileStream = File.Create(dataPath);
+            }
+
+            binaryFormatter.Serialize(fileStream, gameDetails);
+            fileStream.Close();
+
+            if (Application.platform == RuntimePlatform.WebGLPlayer)
+            {
+                SyncFiles();
+            }
+        }
+        catch (Exception e)
+        {
+            PlatformSafeMessage("Failed to Save: " + e.Message);
+        }
+    }
+
     public static GameDetails Load()
     {
         GameDetails gameDetails = null;
@@ -67,6 +99,30 @@ public class DataAccess
         }
 
         return gameDetails;
+    }
+
+	public static GameSettings LoadSettings()
+    {
+        GameSettings gameSettings = null;
+        string dataPath = string.Format("{0}/GameSettings.dat", Application.persistentDataPath);
+        
+        try
+        {
+            if (File.Exists(dataPath))
+            {
+                BinaryFormatter binaryFormatter = new BinaryFormatter();
+                FileStream fileStream = File.Open(dataPath, FileMode.Open);
+
+                gameSettings = (GameSettings)binaryFormatter.Deserialize(fileStream);
+                fileStream.Close();
+            }
+        }
+        catch (Exception e)
+        {
+            PlatformSafeMessage("Failed to Load: " + e.Message);
+        }
+
+        return gameSettings;
     }
 
 	public static GameDetails Delete()

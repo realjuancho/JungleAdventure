@@ -23,10 +23,12 @@ public class Player : MonoBehaviour {
 
 	SoundEffects soundEffects;
 	AudioSource audioSource;
+	float gravityScale;
 
 	void Start()
 	{
 		myRigidBody2D = GetComponent<Rigidbody2D>();
+		gravityScale = myRigidBody2D.gravityScale;
 
 		characterHealth = GetComponentInChildren<HealthPoints>();
 		character = GetComponent<UnityStandardAssets._2D.PlatformerCharacter2D>();
@@ -152,6 +154,102 @@ public class Player : MonoBehaviour {
 
 				
 			}
+	}
+
+
+	bool withinLadder;
+
+	void OnTriggerStay2D(Collider2D col)
+	{
+		if(col.GetComponent<Ladder>())
+		{
+			withinLadder = true;
+			ManageClimbing(withinLadder);
+
+		}
+	} 
+
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		if(col.GetComponent<Ladder>())
+		{
+			withinLadder = true;
+			ManageClimbing(withinLadder);
+		
+		}
+	} 
+
+	void OnTriggerExit2D(Collider2D col)
+	{
+		if(col.GetComponent<Ladder>())
+		{
+			withinLadder = false;
+			ManageClimbing(false);
+
+		}
+	} 
+
+
+	bool isClimbing = false;
+	bool attemptClimb = false;
+	void ManageClimbing(bool withinClimbArea)
+	{
+		bool touchUp = (TouchPadInput.MovementAxis_Vertical > 0f);
+			bool touchDown = (TouchPadInput.MovementAxis_Vertical < 0f);
+			bool KeyUp = Input.GetKey(KeyCode.UpArrow);
+			bool KeyDown = Input.GetKey(KeyCode.DownArrow);
+			bool KeyW = Input.GetKey(KeyCode.W);
+			bool KeyS = Input.GetKey(KeyCode.S);
+			float DPadUpDown = Input.GetAxis(Hash.Axis.DPad_UpDown);
+			float LAnalogUpDown = Input.GetAxis(Hash.Axis.LStick_UpDown);
+
+		if(withinClimbArea)
+		{
+			
+			if(touchUp ||
+				touchDown ||
+					KeyUp ||
+					KeyDown ||
+					KeyW ||
+					KeyS ||
+					DPadUpDown != 0 ||
+					LAnalogUpDown != 0
+					)
+				{  
+					isClimbing = true;
+					attemptClimb = true;
+					myRigidBody2D.gravityScale = 0.0f;
+				}
+			else
+			{
+				isClimbing = false;
+			}
+
+			if(touchUp || KeyUp || KeyW || DPadUpDown > 0 || LAnalogUpDown < 0)
+				{
+					character.MoveUD(Vector2.up);
+				}
+			else if(touchDown || KeyDown || KeyS || DPadUpDown < 0 || LAnalogUpDown > 0)
+				{
+					character.MoveUD(Vector2.down);
+				}
+			else
+			{
+				if(attemptClimb)
+					character.MoveUD(Vector2.zero);
+			}
+
+
+		}
+		else
+		{
+			myRigidBody2D.gravityScale = gravityScale;
+			isClimbing = false;
+			attemptClimb = false;
+			character.MoveUD(true);
+		}
+
+
 	}
 	
 }

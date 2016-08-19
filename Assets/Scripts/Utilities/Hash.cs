@@ -164,6 +164,8 @@ public class Hash : MonoBehaviour
 		{
 			public static string trigger_Shooting = "Shoot";
 			public static string bool_Aiming = "Aiming";
+			public static string float_Climbing = "Climb";
+
 
 		}
 
